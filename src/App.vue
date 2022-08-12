@@ -1,17 +1,15 @@
 <template>
   <div>
-    <b-button>
-      Vitalij
-    </b-button>
+    <Navigation/>
   </div>
 </template>
 
 <script>
 
-import { BButton } from 'bootstrap-vue-3'
+import Navigation from '@/components/Navigation'
 export default {
   name: 'App',
-  components: { BButton }
+  components: { Navigation }
 }
 </script>
 
