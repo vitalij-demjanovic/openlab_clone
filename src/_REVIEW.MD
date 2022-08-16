@@ -1,4 +1,4 @@
 #16.8.2022 Blahos
-[] prehodiť pages do plugins 
-[] images prehodiť do app@-----
-[] footer a Nav prehodiť app/_layout
+[ok] prehodiť pages do plugins 
+[ok] images prehodiť do app@-----
+[ok] footer a Nav prehodiť app/_layout

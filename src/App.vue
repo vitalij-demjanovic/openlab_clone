@@ -7,8 +7,8 @@
 
 <script>
 
-import Navigation from '@/components/Navigation'
-import MainPage from '@/pages/MainPage'
+import Navigation from '@/plugins/app/_layout/Navigation'
+import MainPage from '@/plugins/app@main/MainPage'
 export default {
   name: 'App',
   components: { MainPage, Navigation }

@@ -8,7 +8,7 @@
         <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
       </b-col>
       <b-col class="col-6">
-        <img src="../../assets/images/introduction-img.png" alt="introduction">
+        <img src="_icons/introduction-img.png" alt="introduction">
       </b-col>
     </b-row>
   </div>
@@ -17,17 +17,17 @@
     <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
     <b-row>
       <b-col>
-        <img src="../../assets/images/select.svg" alt="selct">
+        <img src="../app@main/_icons/select.svg" alt="selct">
         <h5>Celospoločenský rozvoj</h5>
         <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
       </b-col>
       <b-col>
-        <img src="../../assets/images/support.svg" alt="selct">
+        <img src="../app@main/_icons/support.svg" alt="selct">
         <h5>Učenie praxou</h5>
         <p>Študentov vedieme k tímovému riešeniu problémov.</p>
       </b-col>
       <b-col>
-        <img src="../../assets/images/intership.svg" alt="selct">
+        <img src="../app@main/_icons/intership.svg" alt="selct">
         <h5>Rozvoj talentu</h5>
         <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
       </b-col>
@@ -61,45 +61,24 @@
     </b-row>
   </div>
   <div>
-    <b-row>
-      <b-col class="col-4">
-        <h1>V akých laboch možeš študovať?</h1>
-      </b-col>
-      <b-col class="col-4 d-flex">
-        <div>
-          <h5>HybridLab</h5>
-          <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
-          <arrow-right/>
-        </div>
-        <div>
-          <h5>GamesLab</h5>
-          <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný <diza></diza></p>
-          <arrow-right/>
-        </div>
-        <div>
-          <h5>AppsLab</h5>
-          <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS.</p>
-          <arrow-right/>
-        </div>
-      </b-col>
-    </b-row>
+    <option-study/>
   </div>
   <div>
     <h1>Nachádzame sa na dvoch školách</h1>
     <b-row>
       <b-col>
-        <img src="../../assets/images/school1.png">
+        <img src="../app@main/_icons/school1.png" alt="school">
         <div>
-          <img src="../../assets/images/place.svg" alt="place">
+          <img src="../app@main/_icons/place.svg" alt="place">
           <span>Hálova 16, Bratislava</span>
         </div>
         <span>Stredná Priemyselná Škola Elektrotechnická</span>
         <a href="https://spsehalova.sk/">www.spsehalova.sk</a>
       </b-col>
       <b-col>
-        <img src="../../assets/images/school2.png">
+        <img src="../app@main/_icons/school2.png" alt="school">
         <div>
-          <img src="../../assets/images/place.svg" alt="place">
+          <img src="../app@main/_icons/place.svg" alt="place">
           <span>Nábrežná 1325, Kysucké Nové Mesto</span>
         </div>
         <span>Stredná Priemyselná Škola Informačných Technológií</span>
@@ -120,7 +99,7 @@
         <p>Staň sa súčasťou tohto inovatívneho študijného programu aj ty!</p>
       </b-col>
       <b-col class="col-7">
-        <img src="../../assets/images/introduction-img.png" alt="introduction">
+        <img src="../app@main/_icons/introduction-img.png" alt="introduction">
       </b-col>
     </b-row>
   </div>
@@ -186,32 +165,32 @@
     <h1>Čím sme výnimoční?</h1>
     <b-row>
       <b-col class="col-4">
-        <img src="../../assets/images/special1.svg">
+        <img src="../app@main/_icons/special1.svg" alt="special">
         <h5>Partnerstvo</h5>
         <p>Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../../assets/images/special2.svg">
+        <img src="../app@main/_icons/special2.svg" alt="special">
         <h5>LabMaster</h5>
         <p>Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../../assets/images/special3.svg">
+        <img src="../app@main/_icons/special3.svg" alt="special">
         <h5>Učebný blok</h5>
         <p>Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../../assets/images/special4.svg">
+        <img src="../app@main/_icons/special4.svg" alt="special">
         <h5>Problem driven</h5>
         <p>Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../../assets/images/special5.svg">
+        <img src="../app@main/_icons/special5.svg" alt="special">
         <h5>Project driven</h5>
         <p>Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../../assets/images/special6.svg">
+        <img src="../app@main/_icons/special6.svg" alt="special">
         <h5>Samoštúdium</h5>
         <p>Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
       </b-col>
@@ -221,7 +200,7 @@
     <h1>Spoznaj nás</h1>
     <b-row>
       <b-col class="col-3">
-        <img src="../../assets/images/grigor-ayrumyan.jpg">
+        <img src="../app@main/_icons/grigor-ayrumyan.jpg" alt="grigor">
         <span>BOARD MEMBER & EXECUTIVE TEAM</span>
         <h5>Grigor Ayrumyan</h5>
         <p>Co-founder & Executive Director</p>
@@ -231,7 +210,7 @@
   <div>
     <b-row>
       <b-col class="col-6">
-        <img src="../../assets/images/people.png">
+        <img src="../app@main/_icons/people.png" alt="people">
       </b-col>
       <b-col class="col-6">
         <h3>Podporte nás</h3>
@@ -247,12 +226,12 @@
       </b-col>
       <b-col class="col-8">
         <div>
-          <img src="../../assets/images/wezeo.svg">
-          <img src="../../assets/images/power.svg">
-          <img src="../../assets/images/siemens.svg">
-          <img src="../../assets/images/spsit.svg">
-          <img src="../../assets/images/spse.svg">
-          <img src="../../assets/images/hemisfera.svg">
+          <img src="../app@main/_icons/wezeo.svg" alt="wezeo">
+          <img src="../app@main/_icons/power.svg" alt="power">
+          <img src="../app@main/_icons/siemens.svg" alt="siemens">
+          <img src="../app@main/_icons/spsit.svg" alt="school">
+          <img src="../app@main/_icons/spse.svg" alt="school">
+          <img src="../app@main/_icons/hemisfera.svg" alt="hemisfera">
         </div>
       </b-col>
     </b-row>
@@ -262,10 +241,11 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ArrowRight from '@/components/IconComponents/arrow-right'
+import ArrowRight from '../app/_components/arrow-right'
+import OptionStudy from '@/plugins/app@main/_components/option-study'
 export default {
   name: 'MainPage',
-  components: { BCol, ArrowRight, BRow }
+  components: { OptionStudy, BCol, ArrowRight, BRow }
 }
 </script>
 
