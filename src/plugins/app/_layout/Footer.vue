@@ -19,7 +19,7 @@
       <b-col class="col-3">
         <img src="../_layout/_icons/facebook.svg" alt="facebook">
         <img src="../_layout/_icons/linkedin.svg" alt="linkedin">
-        <img src="../_layout/_icons/instagram.svg" alt="insagram">
+        <img src="../_layout/_icons/instagram.svg" alt="instagram">
       </b-col>
     </b-row>
   </div>

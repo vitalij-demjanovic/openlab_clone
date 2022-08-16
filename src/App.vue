@@ -1,19 +1,19 @@
 <template>
   <div>
     <Navigation/>
-    <MainPage/>
+    <teachers-page/>
     <Footer/>
   </div>
 </template>
 
 <script>
-
 import Navigation from '@/plugins/app/_layout/Navigation'
-import MainPage from '@/plugins/app@main/MainPage'
 import Footer from '@/plugins/app/_layout/Footer'
+import TeachersPage from '@/plugins/app@teacher/TeachersPage'
+
 export default {
   name: 'App',
-  components: { Footer, MainPage, Navigation }
+  components: { TeachersPage, Footer, Navigation }
 }
 </script>
 
