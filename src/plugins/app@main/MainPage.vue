@@ -142,15 +142,7 @@
     <exceptional/>
   </div>
   <div>
-    <h1>Spoznaj nás</h1>
-    <b-row>
-      <b-col class="col-3">
-        <img src="../app@main/_icons/grigor-ayrumyan.jpg" alt="grigor">
-        <span>BOARD MEMBER & EXECUTIVE TEAM</span>
-        <h5>Grigor Ayrumyan</h5>
-        <p>Co-founder & Executive Director</p>
-      </b-col>
-    </b-row>
+    <team/>
   </div>
   <div>
     <b-row>
@@ -190,9 +182,10 @@ import ArrowRight from '../app/_components/arrow-right'
 import OptionStudy from '@/plugins/app@main/_components/option-study'
 import JoinUs from '@/plugins/app@main/_components/join-us'
 import Exceptional from '@/plugins/app@main/_components/exceptionality'
+import Team from '@/plugins/app@main/_components/team'
 export default {
   name: 'MainPage',
-  components: { Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
+  components: { Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
 }
 </script>
 

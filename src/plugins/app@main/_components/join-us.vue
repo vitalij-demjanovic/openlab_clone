@@ -14,7 +14,8 @@
 </template>
 
 <script>
-import Card from '@/plugins/app@main/_components/card'
+import Card from '@/plugins/app/_components/card'
+
 export default {
   name: 'join-us',
   components: { Card },
