@@ -8,7 +8,7 @@
         <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
       </b-col>
       <b-col class="col-6">
-        <img src="../assets/images/introduction-img.png" alt="introduction">
+        <img src="../../assets/images/introduction-img.png" alt="introduction">
       </b-col>
     </b-row>
   </div>
@@ -17,17 +17,17 @@
     <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
     <b-row>
       <b-col>
-        <img src="../assets/images/select.svg" alt="selct">
+        <img src="../../assets/images/select.svg" alt="selct">
         <h5>Celospoločenský rozvoj</h5>
         <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
       </b-col>
       <b-col>
-        <img src="../assets/images/support.svg" alt="selct">
+        <img src="../../assets/images/support.svg" alt="selct">
         <h5>Učenie praxou</h5>
         <p>Študentov vedieme k tímovému riešeniu problémov.</p>
       </b-col>
       <b-col>
-        <img src="../assets/images/intership.svg" alt="selct">
+        <img src="../../assets/images/intership.svg" alt="selct">
         <h5>Rozvoj talentu</h5>
         <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
       </b-col>
@@ -88,18 +88,18 @@
     <h1>Nachádzame sa na dvoch školách</h1>
     <b-row>
       <b-col>
-        <img src="../assets/images/school1.png">
+        <img src="../../assets/images/school1.png">
         <div>
-          <img src="../assets/images/place.svg" alt="place">
+          <img src="../../assets/images/place.svg" alt="place">
           <span>Hálova 16, Bratislava</span>
         </div>
         <span>Stredná Priemyselná Škola Elektrotechnická</span>
         <a href="https://spsehalova.sk/">www.spsehalova.sk</a>
       </b-col>
       <b-col>
-        <img src="../assets/images/school2.png">
+        <img src="../../assets/images/school2.png">
         <div>
-          <img src="../assets/images/place.svg" alt="place">
+          <img src="../../assets/images/place.svg" alt="place">
           <span>Nábrežná 1325, Kysucké Nové Mesto</span>
         </div>
         <span>Stredná Priemyselná Škola Informačných Technológií</span>
@@ -120,7 +120,7 @@
         <p>Staň sa súčasťou tohto inovatívneho študijného programu aj ty!</p>
       </b-col>
       <b-col class="col-7">
-        <img src="../assets/images/introduction-img.png" alt="introduction">
+        <img src="../../assets/images/introduction-img.png" alt="introduction">
       </b-col>
     </b-row>
   </div>
@@ -186,32 +186,32 @@
     <h1>Čím sme výnimoční?</h1>
     <b-row>
       <b-col class="col-4">
-        <img src="../assets/images/special1.svg">
+        <img src="../../assets/images/special1.svg">
         <h5>Partnerstvo</h5>
         <p>Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../assets/images/special2.svg">
+        <img src="../../assets/images/special2.svg">
         <h5>LabMaster</h5>
         <p>Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../assets/images/special3.svg">
+        <img src="../../assets/images/special3.svg">
         <h5>Učebný blok</h5>
         <p>Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../assets/images/special4.svg">
+        <img src="../../assets/images/special4.svg">
         <h5>Problem driven</h5>
         <p>Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../assets/images/special5.svg">
+        <img src="../../assets/images/special5.svg">
         <h5>Project driven</h5>
         <p>Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
       </b-col>
       <b-col class="col-4">
-        <img src="../assets/images/special6.svg">
+        <img src="../../assets/images/special6.svg">
         <h5>Samoštúdium</h5>
         <p>Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
       </b-col>
@@ -221,7 +221,7 @@
     <h1>Spoznaj nás</h1>
     <b-row>
       <b-col class="col-3">
-        <img src="../assets/images/grigor-ayrumyan.jpg">
+        <img src="../../assets/images/grigor-ayrumyan.jpg">
         <span>BOARD MEMBER & EXECUTIVE TEAM</span>
         <h5>Grigor Ayrumyan</h5>
         <p>Co-founder & Executive Director</p>
@@ -231,7 +231,7 @@
   <div>
     <b-row>
       <b-col class="col-6">
-        <img src="../assets/images/people.png">
+        <img src="../../assets/images/people.png">
       </b-col>
       <b-col class="col-6">
         <h3>Podporte nás</h3>
@@ -247,12 +247,12 @@
       </b-col>
       <b-col class="col-8">
         <div>
-          <img src="../assets/images/wezeo.svg">
-          <img src="../assets/images/power.svg">
-          <img src="../assets/images/siemens.svg">
-          <img src="../assets/images/spsit.svg">
-          <img src="../assets/images/spse.svg">
-          <img src="../assets/images/hemisfera.svg">
+          <img src="../../assets/images/wezeo.svg">
+          <img src="../../assets/images/power.svg">
+          <img src="../../assets/images/siemens.svg">
+          <img src="../../assets/images/spsit.svg">
+          <img src="../../assets/images/spse.svg">
+          <img src="../../assets/images/hemisfera.svg">
         </div>
       </b-col>
     </b-row>
