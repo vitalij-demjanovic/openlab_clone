@@ -104,30 +104,7 @@
     </b-row>
   </div>
   <div>
-    <h1>Pridajte sa k nám</h1>
-    <h1>My všetci sme OpenLab…</h1>
-    <div>
-      <div>
-        <h5>Labmastri</h5>
-        <p>Odborníci z praxe, ktorí odovzdávajú študentom svoj know-how v roli mentora 5 hodín týždenne celý školský rok.</p>
-        <arrow-right/>
-      </div>
-      <div>
-        <h5>Firmy</h5>
-        <p>Technologické firmy sú garantmi obsahu jednotlivých labov, spolupracujú so študentmi na projektoch a v rámci študentských stáží.</p>
-        <arrow-right/>
-      </div>
-      <div>
-        <h5>Školy</h5>
-        <p>Stredné odborné školy zamerané na digitálne technológie v jednotlivých regiónoch inovujú svoje technologické vzdelávanie.</p>
-        <arrow-right/>
-      </div>
-      <div>
-        <h5>Študenti</h5>
-        <p>Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou motiváciou učiť sa nové veci a rozvíjať svoje schopnosti.</p>
-        <arrow-right/>
-      </div>
-    </div>
+    <join-us/>
   </div>
   <div>Slider</div>
   <div>
@@ -162,39 +139,7 @@
     </div>
   </div>
   <div>
-    <h1>Čím sme výnimoční?</h1>
-    <b-row>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special1.svg" alt="special">
-        <h5>Partnerstvo</h5>
-        <p>Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
-      </b-col>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special2.svg" alt="special">
-        <h5>LabMaster</h5>
-        <p>Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
-      </b-col>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special3.svg" alt="special">
-        <h5>Učebný blok</h5>
-        <p>Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
-      </b-col>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special4.svg" alt="special">
-        <h5>Problem driven</h5>
-        <p>Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
-      </b-col>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special5.svg" alt="special">
-        <h5>Project driven</h5>
-        <p>Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
-      </b-col>
-      <b-col class="col-4">
-        <img src="../app@main/_icons/special6.svg" alt="special">
-        <h5>Samoštúdium</h5>
-        <p>Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
-      </b-col>
-    </b-row>
+    <exceptional/>
   </div>
   <div>
     <h1>Spoznaj nás</h1>
@@ -243,9 +188,11 @@
 import { BCol, BRow } from 'bootstrap-vue-3'
 import ArrowRight from '../app/_components/arrow-right'
 import OptionStudy from '@/plugins/app@main/_components/option-study'
+import JoinUs from '@/plugins/app@main/_components/join-us'
+import Exceptional from '@/plugins/app@main/_components/exceptionality'
 export default {
   name: 'MainPage',
-  components: { OptionStudy, BCol, ArrowRight, BRow }
+  components: { Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
 }
 </script>
 
