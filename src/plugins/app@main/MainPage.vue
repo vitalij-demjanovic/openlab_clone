@@ -173,6 +173,18 @@
       </b-col>
     </b-row>
   </div>
+  <div>
+    Instagram Feed
+  </div>
+  <div>
+    <modern-school/>
+  </div>
+  <div>
+    <support/>
+  </div>
+  <div>
+    <newsletter/>
+  </div>
 </div>
 </template>
 
@@ -183,9 +195,13 @@ import OptionStudy from '@/plugins/app@main/_components/option-study'
 import JoinUs from '@/plugins/app@main/_components/join-us'
 import Exceptional from '@/plugins/app@main/_components/exceptionality'
 import Team from '@/plugins/app@main/_components/team'
+import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
+import Support from '@/plugins/app/_components/_support/support'
+import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+
 export default {
   name: 'MainPage',
-  components: { Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
+  components: { Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
 }
 </script>
 
