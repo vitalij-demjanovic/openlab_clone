@@ -163,12 +163,7 @@
       </b-col>
       <b-col class="col-8">
         <div>
-          <img src="../app@main/_icons/wezeo.svg" alt="wezeo">
-          <img src="../app@main/_icons/power.svg" alt="power">
-          <img src="../app@main/_icons/siemens.svg" alt="siemens">
-          <img src="../app@main/_icons/spsit.svg" alt="school">
-          <img src="../app@main/_icons/spse.svg" alt="school">
-          <img src="../app@main/_icons/hemisfera.svg" alt="hemisfera">
+          <partners/>
         </div>
       </b-col>
     </b-row>
@@ -198,10 +193,11 @@ import Team from '@/plugins/app@main/_components/team'
 import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
 import Support from '@/plugins/app/_components/_support/support'
 import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import Partners from '@/plugins/app@partners/_components/partners'
 
 export default {
   name: 'MainPage',
-  components: { Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
+  components: { Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
 }
 </script>
 
