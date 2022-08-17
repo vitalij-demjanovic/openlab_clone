@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navigation/>
-    <SchoolPage/>
+    <hybrid-lab/>
     <Footer/>
   </div>
 </template>
@@ -9,11 +9,11 @@
 <script>
 import Navigation from '@/plugins/app/_layout/Navigation'
 import Footer from '@/plugins/app/_layout/Footer'
-import SchoolPage from '@/plugins/app@school/SchoolPage'
+import HybridLab from '@/plugins/app@hybridlab/hybrid-lab'
 
 export default {
   name: 'App',
-  components: { SchoolPage, Footer, Navigation }
+  components: { HybridLab, Footer, Navigation }
 }
 </script>
 
