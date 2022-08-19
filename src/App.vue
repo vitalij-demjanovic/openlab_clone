@@ -1,19 +1,19 @@
 <template>
   <div>
-    <Navigation/>
+    <a-header/>
     <app-lab/>
-    <Footer/>
+    <a-footer/>
   </div>
 </template>
 
 <script>
-import Navigation from '@/plugins/app/_layout/Navigation'
-import Footer from '@/plugins/app/_layout/Footer'
+import AHeader from '@/plugins/app/_layout/a_header'
+import AFooter from '@/plugins/app/_layout/a_footer'
 import AppLab from '@/plugins/app@applab/app-lab'
 
 export default {
   name: 'App',
-  components: { AppLab, Footer, Navigation }
+  components: { AppLab, AFooter, AHeader }
 }
 </script>
 
