@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navigation/>
-    <games-lab/>
+    <app-lab/>
     <Footer/>
   </div>
 </template>
@@ -9,11 +9,11 @@
 <script>
 import Navigation from '@/plugins/app/_layout/Navigation'
 import Footer from '@/plugins/app/_layout/Footer'
-import GamesLab from '@/plugins/app@gameslab/games-lab'
+import AppLab from '@/plugins/app@applab/app-lab'
 
 export default {
   name: 'App',
-  components: { GamesLab, Footer, Navigation }
+  components: { AppLab, Footer, Navigation }
 }
 </script>
 

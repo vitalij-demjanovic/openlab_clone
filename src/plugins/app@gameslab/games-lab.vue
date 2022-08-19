@@ -80,6 +80,18 @@
     <div>
       <discort/>
     </div>
+    <div>
+      Instagram Feed
+    </div>
+    <div>
+      <modern-school/>
+    </div>
+    <div>
+      <support/>
+    </div>
+    <div>
+      <newsletter/>
+    </div>
   </div>
 </template>
 
@@ -96,10 +108,13 @@ import SchoolYear from '@/plugins/app@main/_components/school-year'
 import Students from '@/plugins/app/_components/students'
 import Options from '@/plugins/app@hybridlab/_components/options'
 import Discort from '@/plugins/app/_components/discort'
+import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
+import Support from '@/plugins/app/_components/_support/support'
+import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
 
 export default {
   name: 'games-lab',
-  components: { Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, PlaceStudy, BCol, BRow },
+  components: { Newsletter, Support, ModernSchool, Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, PlaceStudy, BCol, BRow },
   data () {
     return {
       technologies: [
