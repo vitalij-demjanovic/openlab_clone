@@ -10,7 +10,7 @@
           Na hodinách s LabMastrom vôbec nepociťujem stres ale naopak, teším sa na každý deň.”
         </p>
         <div>
-          <img src="../_icons/icon-person.svg" alt="person">
+          <img src="../../app@hybridlab/_icons/icon-person.svg" alt="person">
           <div>
             <span>Roman</span>
             <span>HybridLab, PDT</span>
@@ -19,7 +19,7 @@
       </div>
     </b-col>
     <b-col class="col-6">
-      <img src="../_icons/students3.png" alt="students">
+      <img src="../../app@hybridlab/_icons/students3.png" alt="students">
     </b-col>
   </b-row>
 </div>

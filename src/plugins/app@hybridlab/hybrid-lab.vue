@@ -47,23 +47,7 @@
       </b-row>
     </div>
     <div>
-      <h2>Kde môžeš študovať HybridLab?</h2>
-      <b-row>
-        <b-col class="col-6">
-          <span>V študijnom odbore</span>
-          <h3>Programovanie digitálnych technológií</h3>
-          <p>Tvorba aplikácií a hier, inovatívne myslenie, práca na reálnych projektoch.</p>
-          <button>Chcem vedieť viac o odbore</button>
-        </b-col>
-        <b-col class="col-6">
-          <img src="../app@hybridlab/_icons/school1.png" alt="school">
-          <h5>Stredná Priemyselná Škola Elektrotechnická</h5>
-          <div>
-            <span>Hálova 16, 851 01 Bratislava</span>
-            <a href="https://www.spsehalova.sk/">www.spsehalova.sk</a>
-          </div>
-        </b-col>
-      </b-row>
+     <place-study/>
     </div>
     <div>
       <h2>S akými technológiami budeš pracovať?</h2>
@@ -93,7 +77,9 @@
       </div>
     </div>
     <div>
-      <options/>
+      <options
+        :options="options"
+      />
     </div>
     <div>
       <discort/>
@@ -127,10 +113,11 @@ import Exceptional from '@/plugins/app/_components/exceptional'
 import Students from '@/plugins/app@hybridlab/_components/students'
 import Options from '@/plugins/app@hybridlab/_components/options'
 import Discort from '@/plugins/app/_components/discort'
+import PlaceStudy from '@/plugins/app/_components/place-study'
 
 export default {
   name: 'hybrid-lab',
-  components: { Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
+  components: { PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
   data () {
     return {
       technologies: [
@@ -157,6 +144,18 @@ export default {
           image: October,
           title: 'October CMS',
           description: 'Október je samoobslužný systém na správu obsahu založený na programovacom jazyku PHP a rámci webových aplikácií Laravel.'
+        }
+      ],
+      options: [
+        {
+          id: 1,
+          title: 'GamesLab',
+          description: 'Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný'
+        },
+        {
+          id: 2,
+          title: 'AppsLab',
+          description: 'Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS.'
         }
       ]
     }
