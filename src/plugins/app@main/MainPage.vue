@@ -139,6 +139,7 @@
     </div>
   </div>
   <div>
+    <h2>Čím sme výnimoční?</h2>
     <exceptional/>
   </div>
   <div>
@@ -188,12 +189,12 @@ import { BCol, BRow } from 'bootstrap-vue-3'
 import ArrowRight from '../app/_components/arrow-right'
 import OptionStudy from '@/plugins/app@main/_components/option-study'
 import JoinUs from '@/plugins/app@main/_components/join-us'
-import Exceptional from '@/plugins/app@main/_components/exceptionality'
+import Exceptional from '@/plugins/app/_components/exceptional'
 import Team from '@/plugins/app@main/_components/team'
 import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
 import Support from '@/plugins/app/_components/_support/support'
 import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
-import Partners from '@/plugins/app@partners/_components/partners'
+import Partners from '@/plugins/app/_components/partners'
 
 export default {
   name: 'MainPage',

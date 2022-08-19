@@ -47,6 +47,58 @@
       </b-row>
     </div>
     <div>
+      <h2>Kde môžeš študovať HybridLab?</h2>
+      <b-row>
+        <b-col class="col-6">
+          <span>V študijnom odbore</span>
+          <h3>Programovanie digitálnych technológií</h3>
+          <p>Tvorba aplikácií a hier, inovatívne myslenie, práca na reálnych projektoch.</p>
+          <button>Chcem vedieť viac o odbore</button>
+        </b-col>
+        <b-col class="col-6">
+          <img src="../app@hybridlab/_icons/school1.png" alt="school">
+          <h5>Stredná Priemyselná Škola Elektrotechnická</h5>
+          <div>
+            <span>Hálova 16, 851 01 Bratislava</span>
+            <a href="https://www.spsehalova.sk/">www.spsehalova.sk</a>
+          </div>
+        </b-col>
+      </b-row>
+    </div>
+    <div>
+      <h2>S akými technológiami budeš pracovať?</h2>
+      <b-row>
+        <b-col
+          v-for="technology in technologies"
+          :key="technology.id"
+        >
+          <technology-card
+            :image="technology.image"
+            :title="technology.title"
+            :description="technology.description"
+          />
+        </b-col>
+      </b-row>
+    </div>
+    <div>
+      <h2>Ako prebieha výuka</h2>
+      <exceptional/>
+    </div>
+    <div>
+      Slider
+    </div>
+    <div>
+      <div>
+        <students/>
+      </div>
+    </div>
+    <div>
+      <options/>
+    </div>
+    <div>
+      <discort/>
+    </div>
+    <div>
       Instagram Feed
     </div>
     <div>
@@ -66,10 +118,49 @@ import { BCol, BRow } from 'bootstrap-vue-3'
 import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
 import Support from '@/plugins/app/_components/_support/support'
 import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import TechnologyCard from '@/plugins/app/_components/technology-card'
+import Ionic from '../app@hybridlab/_icons/icon-ionic.svg'
+import VueIcon from '../app@hybridlab/_icons/icon-vue.svg'
+import AngularIcon from '../app@hybridlab/_icons/icon-angular.svg'
+import October from '../app@hybridlab/_icons/icon-october.svg'
+import Exceptional from '@/plugins/app/_components/exceptional'
+import Students from '@/plugins/app@hybridlab/_components/students'
+import Options from '@/plugins/app@hybridlab/_components/options'
+import Discort from '@/plugins/app/_components/discort'
 
 export default {
   name: 'hybrid-lab',
-  components: { Newsletter, Support, ModernSchool, BCol, BRow }
+  components: { Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
+  data () {
+    return {
+      technologies: [
+        {
+          id: 1,
+          image: Ionic,
+          title: 'Ionic Framework',
+          description: 'Ionic je sada vývojových nástrojov na hybridný vývoj mobilných aplikácií. Ionic sa radí medzi otvorené softvér, tj je vývojárom voľne k dispozícii.'
+        },
+        {
+          id: 2,
+          image: VueIcon,
+          title: 'Vue.js',
+          description: 'Vue.js je open-source progresívny javascriptový framework na vytváranie užívateľských rozhraní.'
+        },
+        {
+          id: 3,
+          image: AngularIcon,
+          title: 'Angular',
+          description: 'Angular je bezplatný a open source webový aplikačný rámec založený na TypeScript.'
+        },
+        {
+          id: 4,
+          image: October,
+          title: 'October CMS',
+          description: 'Október je samoobslužný systém na správu obsahu založený na programovacom jazyku PHP a rámci webových aplikácií Laravel.'
+        }
+      ]
+    }
+  }
 }
 </script>
 
