@@ -16,7 +16,7 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import Card from '@/plugins/app/_components/card'
+import Card from '@/plugins/app/_components/z-card'
 
 export default {
   name: 'option-study',

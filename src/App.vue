@@ -1,19 +1,19 @@
 <template>
   <div>
     <a-header/>
-    <app-lab/>
+    <about/>
     <a-footer/>
   </div>
 </template>
 
 <script>
-import AHeader from '@/plugins/app/_layout/a_header'
-import AFooter from '@/plugins/app/_layout/a_footer'
-import AppLab from '@/plugins/app@applab/app-lab'
+import AHeader from '@/plugins/app/_layout/a-header'
+import AFooter from '@/plugins/app/_layout/a-footer'
+import About from '@/plugins/app@main/about'
 
 export default {
   name: 'App',
-  components: { AppLab, AFooter, AHeader }
+  components: { About, AFooter, AHeader }
 }
 </script>
 

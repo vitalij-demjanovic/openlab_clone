@@ -97,20 +97,20 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import PlaceStudy from '@/plugins/app/_components/place-study'
-import TechnologyCard from '@/plugins/app/_components/technology-card'
+import PlaceStudy from '@/plugins/app/_components/a-place-study'
+import TechnologyCard from '@/plugins/app/_components/z-technology-card'
 import Unity from '../app@gameslab/_icons/technologies-unity.png'
 import GDevelop from '../app@gameslab/_icons/technologies-gdevelop.png'
 import Piskel from '../app@gameslab/_icons/technologies-piskel.png'
 import Blander from '../app@gameslab/_icons/technologies-blender.png'
-import Exceptional from '@/plugins/app/_components/exceptional'
-import SchoolYear from '@/plugins/app@main/_components/school-year'
-import Students from '@/plugins/app/_components/students'
-import Options from '@/plugins/app@hybridlab/_components/options'
-import Discort from '@/plugins/app/_components/discort'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import Exceptional from '@/plugins/app/_components/a-exceptional'
+import SchoolYear from '@/plugins/app@main/_components/a-school-year'
+import Students from '@/plugins/app/_components/a-students'
+import Options from '@/plugins/app@hybridlab/_components/z-options'
+import Discort from '@/plugins/app/_components/a-discort'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
   name: 'games-lab',

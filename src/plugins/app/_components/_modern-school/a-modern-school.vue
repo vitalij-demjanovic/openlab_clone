@@ -19,7 +19,7 @@
 
 <script>
 import { BRow, BCol } from 'bootstrap-vue-3'
-import ColorSocial from '@/plugins/app/_components/color-social'
+import ColorSocial from '@/plugins/app/_components/a-color-social'
 
 export default {
   name: 'modern-school',

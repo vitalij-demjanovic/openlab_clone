@@ -1,16 +1,18 @@
 <template>
 <div>
-  <div>
-    <b-row>
-      <b-col class="col-6">
-        <h1>Inštitút stredoškolského odborného vzdelávania</h1>
-        <span>zameraný na IT & AI</span>
-        <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
-      </b-col>
-      <b-col class="col-6">
-        <img src="_icons/introduction-img.png" alt="introduction">
-      </b-col>
-    </b-row>
+  <div >
+    <div class="container">
+      <b-row>
+        <b-col class="col-6">
+          <h1>Inštitút stredoškolského odborného vzdelávania</h1>
+          <span>zameraný na IT & AI</span>
+          <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
+        </b-col>
+        <b-col class="col-6">
+          <img src="../app@main/_icons/introduction-img.png" alt="introduction">
+        </b-col>
+      </b-row>
+    </div>
   </div>
   <div>
     <h1>Prečo OpenLab?</h1>
@@ -22,12 +24,12 @@
         <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
       </b-col>
       <b-col>
-        <img src="../app@main/_icons/support.svg" alt="selct">
+        <img src="../app@main/_icons/support.svg" alt="select">
         <h5>Učenie praxou</h5>
         <p>Študentov vedieme k tímovému riešeniu problémov.</p>
       </b-col>
       <b-col>
-        <img src="../app@main/_icons/intership.svg" alt="selct">
+        <img src="../app@main/_icons/intership.svg" alt="select">
         <h5>Rozvoj talentu</h5>
         <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
       </b-col>
@@ -124,10 +126,10 @@
       </b-row>
       <div>
         <button>
-          <arrow-right/>
+          <icon name="arrow-right"/>
         </button>
         <button>
-          <arrow-right/>
+          <icon name="arrow-right"/>
         </button>
       </div>
       <div class="dots">
@@ -135,7 +137,7 @@
         <div></div>
         <div></div>
       </div>
-      <a href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw">Pozrieť si všetky projekty <arrow-right/></a>
+      <a href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw">Pozrieť si všetky projekty <icon name="arrow-right"/></a>
     </div>
   </div>
   <div>
@@ -186,19 +188,19 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ArrowRight from '../app/_components/arrow-right'
-import OptionStudy from '@/plugins/app@main/_components/option-study'
-import JoinUs from '@/plugins/app@main/_components/join-us'
-import Exceptional from '@/plugins/app/_components/exceptional'
-import Team from '@/plugins/app@main/_components/team'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
-import Partners from '@/plugins/app/_components/partners'
+import Icon from '../app/_components/z-icon/z-icon'
+import OptionStudy from '@/plugins/app@main/_components/a-option-study'
+import JoinUs from '@/plugins/app@main/_components/a-join-us'
+import Exceptional from '@/plugins/app/_components/a-exceptional'
+import Team from '@/plugins/app@main/_components/a-team'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import Partners from '@/plugins/app/_components/a-partners'
 
 export default {
   name: 'MainPage',
-  components: { Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, ArrowRight, BRow }
+  components: { Icon, Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, BRow }
 }
 </script>
 

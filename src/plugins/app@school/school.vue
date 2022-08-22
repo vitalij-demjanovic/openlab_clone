@@ -37,9 +37,9 @@
         <p>Podcast Moderná škola vznikol v spolupráci s Romanom ”Yablkom” Hraškom, ktorý patrí medzi najznamejších tech influencerov na Slovensku.</p>
         <p>S našimi partnermi preberáme témy v 3 oblastiach:</p>
         <div>
-          <div><checkmark/> premena na modernú školu</div>
-          <div><checkmark/> vzdelávanie v technológiach</div>
-          <div><checkmark/> úspešné príklady z praxe</div>
+          <div><icon name="checkmark"/> premena na modernú školu</div>
+          <div><icon name="checkmark"/> vzdelávanie v technológiach</div>
+          <div><icon name="checkmark"/> úspešné príklady z praxe</div>
         </div>
       </b-col>
       <b-col class="col-6">
@@ -75,17 +75,17 @@
 
 <script>
 import { BRow, BCol } from 'bootstrap-vue-3'
-import GreySocial from '@/plugins/app/_components/grey-social'
-import ColorSocial from '@/plugins/app/_components/color-social'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
-import Checkmark from '@/plugins/app/_components/checkmark'
-import Episodes from '@/plugins/app@school/_components/episodes'
+import GreySocial from '@/plugins/app/_components/a-grey-social'
+import ColorSocial from '@/plugins/app/_components/a-color-social'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import Episodes from '@/plugins/app@school/_components/a-episodes'
+import Icon from '../app/_components/z-icon/z-icon'
 
 export default {
   name: 'SchoolPage',
-  components: { Episodes, Checkmark, Newsletter, Support, ModernSchool, ColorSocial, GreySocial, BRow, BCol }
+  components: { Episodes, Icon, Newsletter, Support, ModernSchool, ColorSocial, GreySocial, BRow, BCol }
 }
 </script>
 

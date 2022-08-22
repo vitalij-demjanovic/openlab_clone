@@ -2,16 +2,16 @@
   <div>
     <h5>{{title}}</h5>
     <p>{{description}}</p>
-    <arrow-right/>
+    <icon name="arrow-right"/>
   </div>
 </template>
 
 <script>
-import arrowRight from '@/plugins/app/_components/arrow-right'
+import icon from '../_components/z-icon/z-icon'
 
 export default {
   name: 'card',
-  components: { arrowRight },
+  components: { icon },
   props: {
     title: String,
     description: String

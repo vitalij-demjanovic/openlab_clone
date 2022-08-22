@@ -101,19 +101,19 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
-import TechnologyCard from '@/plugins/app/_components/technology-card'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import TechnologyCard from '@/plugins/app/_components/z-technology-card'
 import Ionic from '../app@hybridlab/_icons/icon-ionic.svg'
 import VueIcon from '../app@hybridlab/_icons/icon-vue.svg'
 import AngularIcon from '../app@hybridlab/_icons/icon-angular.svg'
 import October from '../app@hybridlab/_icons/icon-october.svg'
-import Exceptional from '@/plugins/app/_components/exceptional'
-import Students from '@/plugins/app@hybridlab/_components/students'
-import Options from '@/plugins/app@hybridlab/_components/options'
-import Discort from '@/plugins/app/_components/discort'
-import PlaceStudy from '@/plugins/app/_components/place-study'
+import Exceptional from '@/plugins/app/_components/a-exceptional'
+import Students from '@/plugins/app/_components/a-students'
+import Options from '@/plugins/app@hybridlab/_components/z-options'
+import Discort from '@/plugins/app/_components/a-discort'
+import PlaceStudy from '@/plugins/app/_components/a-place-study'
 
 export default {
   name: 'hybrid-lab',

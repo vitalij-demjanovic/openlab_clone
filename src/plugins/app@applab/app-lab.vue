@@ -3,7 +3,7 @@
     <div>
       <b-row>
         <b-col class="col-6">
-          <h1>Poď študovať AppsLab a nauč sa tvoriť softvérové aplikácie</h1>
+          <h1 class="title">Poď študovať AppsLab a nauč sa tvoriť softvérové aplikácie</h1>
           <p>
             Technológie používané na vývoj softvéru predstavujú aktuálne veľkú časť technologického priemyslu.
             Počas štúdia v OpenLabe sa preto naučíš ako vytvoriť softvérovú aplikáciu v mobile a na webe s použitím populárnych programovacích jazykov ako Java, C#, Angular, naučíš sa princípy objektovo orientovaného programovania a skúsiš si aj prácu s databázou.
@@ -121,15 +121,15 @@ import CSSIcon from '../app@applab/_icons/technologies-css.png'
 import CSharpIcon from '../app@applab/_icons/technologies-csharp.png'
 import SpringIcon from '../app@applab/_icons/technologies-spring.png'
 import HibernateIcon from '../app@applab/_icons/technologies-hibernate.png'
-import TechnologyCard from '@/plugins/app/_components/technology-card'
-import Exceptional from '@/plugins/app/_components/exceptional'
-import SchoolYear from '@/plugins/app@main/_components/school-year'
-import Students from '@/plugins/app/_components/students'
-import Options from '@/plugins/app@hybridlab/_components/options'
-import Discort from '@/plugins/app/_components/discort'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import TechnologyCard from '@/plugins/app/_components/z-technology-card'
+import Exceptional from '@/plugins/app/_components/a-exceptional'
+import SchoolYear from '@/plugins/app@main/_components/a-school-year'
+import Students from '@/plugins/app/_components/a-students'
+import Options from '@/plugins/app@hybridlab/_components/z-options'
+import Discort from '@/plugins/app/_components/a-discort'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
   name: 'app-lab',
@@ -191,6 +191,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="sass">
 </style>

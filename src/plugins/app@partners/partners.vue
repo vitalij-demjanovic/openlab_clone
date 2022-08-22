@@ -45,12 +45,12 @@
 </template>
 
 <script>
-import Partners from '@/plugins/app/_components/partners'
-import TeamWork from '@/plugins/app@partners/_components/team-work'
-import MarketingPartner from '@/plugins/app@partners/_components/marketing-partner'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import Partners from '@/plugins/app/_components/a-partners'
+import TeamWork from '@/plugins/app@partners/_components/a-team-work'
+import MarketingPartner from '@/plugins/app@partners/_components/a-marketing-partner'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
   name: 'PartnersPage',

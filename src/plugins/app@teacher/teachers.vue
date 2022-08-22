@@ -18,12 +18,12 @@
         <div>
           <img src="../app@teacher/_icons/openacademy.svg" alt="open academy">
           <span>Viac informacií o OpenAcademy</span>
-          <arrow-right/>
+          <icon name="arrow-right"/>
         </div>
         <div>
           <img src="../app@teacher/_icons/drilleo.svg" alt="open academy">
           <span>Viac informacií o Drilleo</span>
-          <arrow-right/>
+          <icon name="arrow-right"/>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@
     <div>
       <b-row>
         <b-col class="col-6">
-          <img src="../app@teacher/_icons/skill1.png">
+          <img src="../app@teacher/_icons/skill1.png" alt="school">
           <h5>Z učiteľa Petra Remiša na SPŠ IT v Kys. N. Meste je dnes LabMaster</h5>
           <p>
             „Minulý školský rok som sa hodín OpenLabu na našej škole zúčastňoval ako pomocník. Hodiny s odborníkmi z praxe som absolvoval rovnako ako naši študenti a veľa som sa vďaka tomu naučil.
@@ -72,16 +72,16 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ArrowRight from '@/plugins/app/_components/arrow-right'
-import OpenAcademy from '@/plugins/app@teacher/_components/open-academy'
-import Drilleo from '@/plugins/app@teacher/_components/drilleo'
-import ModernSchool from '@/plugins/app/_components/_modern-school/modern-school'
-import Support from '@/plugins/app/_components/_support/support'
-import Newsletter from '@/plugins/app/_components/_newsletter/newsletter'
+import Icon from '@/plugins/app/_components/z-icon/z-icon'
+import OpenAcademy from '@/plugins/app@teacher/_components/a-open-academy'
+import Drilleo from '@/plugins/app@teacher/_components/a-drilleo'
+import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/_support/a-support'
+import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
   name: 'TeachersPage',
-  components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, ArrowRight, BRow, BCol }
+  components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, Icon, BRow, BCol }
 }
 </script>
 
