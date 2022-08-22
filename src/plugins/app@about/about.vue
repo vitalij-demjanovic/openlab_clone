@@ -1,86 +1,96 @@
 <template>
 <div>
-  <div >
+  <div class="bg-blue">
     <div class="container">
-      <b-row>
-        <b-col class="col-6">
+      <b-row class="align-items-center">
+        <b-col class="col-5">
           <h1>Inštitút stredoškolského odborného vzdelávania</h1>
-          <span>zameraný na IT & AI</span>
-          <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
+          <span class="title-span">zameraný na IT & AI</span>
+          <p class="text-width mt-4">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
         </b-col>
-        <b-col class="col-6">
-          <img src="../app@main/_icons/introduction-img.png" alt="introduction">
+        <b-col class="col-7 d-flex justify-content-center">
+          <img class="image-visual" src="../app@about/_icons/introduction-img.png" alt="introduction">
         </b-col>
       </b-row>
     </div>
   </div>
-  <div>
-    <h1>Prečo OpenLab?</h1>
-    <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+  <div class="pd-wrapper container">
     <b-row>
-      <b-col>
-        <img src="../app@main/_icons/select.svg" alt="selct">
-        <h5>Celospoločenský rozvoj</h5>
-        <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
+      <b-col class="text-center">
+        <h1 class="mb-5">
+          Prečo
+          <span class="span-weight">OpenLab?</span>
+        </h1>
+        <p class="text-gray mx-md-5">V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
       </b-col>
-      <b-col>
-        <img src="../app@main/_icons/support.svg" alt="select">
-        <h5>Učenie praxou</h5>
-        <p>Študentov vedieme k tímovému riešeniu problémov.</p>
+    </b-row>
+    <b-row class="pt-5 justify-content-center">
+      <b-col class="col-3">
+        <img class="mb-2" src="../app@about/_icons/select.svg" alt="selct">
+        <h5 class="fw-bold mb-2">Celospoločenský rozvoj</h5>
+        <p class="text-gray">Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
       </b-col>
-      <b-col>
-        <img src="../app@main/_icons/intership.svg" alt="select">
-        <h5>Rozvoj talentu</h5>
-        <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
+      <b-col class="col-3">
+        <img class="mb-2" src="../app@about/_icons/support.svg" alt="select">
+        <h5 class="fw-bold mb-2">Učenie praxou</h5>
+        <p class="text-gray">Študentov vedieme k tímovému riešeniu problémov.</p>
+      </b-col>
+      <b-col class="col-3">
+        <img class="mb-2" src="../app@about/_icons/intership.svg" alt="select">
+        <h5 class="fw-bold mb-2">Rozvoj talentu</h5>
+        <p class="text-gray">Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
       </b-col>
     </b-row>
   </div>
-  <div>
-    <b-row>
+  <div class="container">
+    <b-row class="align-items-center">
       <b-col class="col-6">
-        <h1>Naša vízia v OpenLabe</h1>
-        <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
-        <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.</p>
+        <h1 class="mb-5">
+          Naša vízia
+          <span class="span-weight">v OpenLabe</span>
+        </h1>
+        <p class="text-gray">Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
+        <p class="text-gray">Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.</p>
       </b-col>
-      <b-col class="col-6">
-        <div>
-          <span>11</span>
-          <p>tried</p>
-        </div>
-        <div>
-          <span>222</span>
-          <p>študentov</p>
-        </div>
-        <div>
-          <span>14</span>
-          <p>labmastrov</p>
-        </div>
-        <div>
-          <span>2</span>
-          <p>školy</p>
-        </div>
+      <b-col class="col-6 d-flex flex-wrap justify-content-center justify-content-lg-end px-1 px-md-2 gap-3">
+          <div class="item px-4 py-3 d-flex flex-column justify-content-end align-items-end vision">
+            <span class="count fw-bold mb-1 lh-1">11</span>
+            <p class="fw-bold type">tried</p>
+          </div>
+          <div class="item px-4 py-3 d-flex flex-column justify-content-end align-items-end vision">
+            <span class="count fw-bold mb-1 lh-1">222</span>
+            <p class="fw-bold type">študentov</p>
+          </div>
+          <div class="item px-4 py-3 d-flex flex-column justify-content-end align-items-end vision">
+            <span class="count fw-bold mb-1 lh-1">14</span>
+            <p class="fw-bold type">labmastrov</p>
+          </div>
+          <div class="item px-4 py-3 d-flex flex-column justify-content-end align-items-end vision">
+            <span class="count fw-bold mb-1 lh-1">2</span>
+            <p class="fw-bold type">školy</p>
+          </div>
       </b-col>
     </b-row>
   </div>
-  <div>
+  <div class="pd-wrapper container">
     <option-study/>
   </div>
   <div>
     <h1>Nachádzame sa na dvoch školách</h1>
     <b-row>
       <b-col>
-        <img src="../app@main/_icons/school1.png" alt="school">
+        <img src="../app@about/_icons/school1.png" alt="school">
         <div>
-          <img src="../app@main/_icons/place.svg" alt="place">
+          <img src="../app@about/_icons/place.svg" alt="place">
           <span>Hálova 16, Bratislava</span>
         </div>
         <span>Stredná Priemyselná Škola Elektrotechnická</span>
         <a href="https://spsehalova.sk/">www.spsehalova.sk</a>
       </b-col>
       <b-col>
-        <img src="../app@main/_icons/school2.png" alt="school">
+        <img src="../app@about/_icons/school2.png" alt="school">
         <div>
-          <img src="../app@main/_icons/place.svg" alt="place">
+          <img src="../app@about/_icons/place.svg" alt="place">
           <span>Nábrežná 1325, Kysucké Nové Mesto</span>
         </div>
         <span>Stredná Priemyselná Škola Informačných Technológií</span>
@@ -101,7 +111,7 @@
         <p>Staň sa súčasťou tohto inovatívneho študijného programu aj ty!</p>
       </b-col>
       <b-col class="col-7">
-        <img src="../app@main/_icons/introduction-img.png" alt="introduction">
+        <img src="../app@about/_icons/introduction-img.png" alt="introduction">
       </b-col>
     </b-row>
   </div>
@@ -150,7 +160,7 @@
   <div>
     <b-row>
       <b-col class="col-6">
-        <img src="../app@main/_icons/people.png" alt="people">
+        <img src="../app@about/_icons/people.png" alt="people">
       </b-col>
       <b-col class="col-6">
         <h3>Podporte nás</h3>
@@ -189,10 +199,10 @@
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
 import Icon from '../app/_components/z-icon/z-icon'
-import OptionStudy from '@/plugins/app@main/_components/a-option-study'
-import JoinUs from '@/plugins/app@main/_components/a-join-us'
+import OptionStudy from '@/plugins/app@about/_components/a-option-study'
+import JoinUs from '@/plugins/app@about/_components/a-join-us'
 import Exceptional from '@/plugins/app/_components/a-exceptional'
-import Team from '@/plugins/app@main/_components/a-team'
+import Team from '@/plugins/app@about/_components/a-team'
 import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
 import Support from '@/plugins/app/_components/_support/a-support'
 import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
@@ -204,6 +214,37 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.bg-blue
+  background: #3597ff
+  color: #ffffff
 
+.title-span
+  font-size: 2.5rem
+  font-weight: 500
+
+.item
+  width: 233px
+  height: 183px
+  border-radius: 4px
+
+.count
+  font-size: 90px
+
+.type
+  font-size: 18px
+
+.vision
+  &:nth-child(1)
+    color: #5b94d7
+    background-color: rgba(221, 236, 251, 0.4)
+  &:nth-child(2)
+    color: #5cc19a
+    background-color: rgba(156, 238, 204, 0.4)
+  &:nth-child(3)
+    color: #dbca68
+    background-color: rgba(238, 226, 156, 0.4)
+  &:nth-child(4)
+    color: #b95e73
+    background-color: rgba(238, 156, 156, 0.4)
 </style>

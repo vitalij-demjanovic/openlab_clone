@@ -9,7 +9,7 @@
 <script>
 import AHeader from '@/plugins/app/_layout/a-header'
 import AFooter from '@/plugins/app/_layout/a-footer'
-import About from '@/plugins/app@main/about'
+import About from '@/plugins/app@about/about'
 
 export default {
   name: 'App',

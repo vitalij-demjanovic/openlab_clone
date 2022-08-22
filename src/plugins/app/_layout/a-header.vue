@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <b-row>
+  <div class="container mt-5 mb-5">
+    <b-row class="align-items-center">
       <b-col class="col-2">
         <div class="logo">
           <a href="/">
@@ -8,22 +8,15 @@
           </a>
         </div>
       </b-col>
-      <b-col>
-        <b-nav class="col-8">
-          <b-nav-item>Úvod</b-nav-item>
-          <b-nav-item-dropdown
-            id="my-nav-dropdown"
-            text="OpenLab"
-            toggle-class="nav-link-custom"
-            right
-          >
-            <b-dropdown-item>HybridLab</b-dropdown-item>
-            <b-dropdown-item>GamesLab</b-dropdown-item>
-            <b-dropdown-item>AppsLab</b-dropdown-item>
-          </b-nav-item-dropdown>
-          <b-nav-item>Pre učiteľov</b-nav-item>
-          <b-nav-item>Partneri</b-nav-item>
-        </b-nav>
+      <b-col class="col-8">
+        <nav>
+          <ul class="nav-links d-flex">
+            <li class="link">Úvod</li>
+            <li class="link">OpenLab</li>
+            <li class="link">Pre učiteľov</li>
+            <li class="link">Partneri</li>
+          </ul>
+        </nav>
       </b-col>
       <b-col class="col-2">
         <button class="g-btn">Pridajte sa k nám</button>
@@ -33,18 +26,25 @@
 </template>
 
 <script>
-import { BNavItem, BNavItemDropdown, BDropdownItem, BRow, BCol } from 'bootstrap-vue-3'
+import { BRow, BCol } from 'bootstrap-vue-3'
 export default {
   name: 'Navigation',
-  components: { BCol, BRow, BNavItem, BNavItemDropdown, BDropdownItem }
+  components: { BCol, BRow }
 }
 </script>
 
 <style lang="sass">
-.nav-link
-  font-size: 14px
-  font-weight: 500 !important
+.nav-links
+  margin-bottom: 0 !important
+  font-weight: 600 !important
   color: #1a232f !important
+
+.link
+  font-size: 14px
+  margin-right: 1.5rem
+  cursor: pointer
   &:hover
     color: #3597ff !important
+  &:last-child
+    margin-right: 0
 </style>

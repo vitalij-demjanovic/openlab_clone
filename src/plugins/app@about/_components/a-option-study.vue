@@ -1,9 +1,12 @@
 <template>
-  <b-row>
-    <b-col class="col-4">
-      <h1>V akých laboch možeš študovať?</h1>
+  <b-row class="align-items-center">
+    <b-col class="col-lg-5 col-xl-4 mb-3 mb-md-5 mb-lg-0">
+      <h1>
+        V akých laboch <br>
+        <span class="span-weight">možeš študovať?</span>
+      </h1>
     </b-col>
-    <b-col class="col-4 d-flex">
+    <b-col class="col-lg-7 col-xl-8 d-flex">
       <card
         v-for="option in options"
         :key="option.id"
@@ -26,22 +29,17 @@ export default {
       options: [
         {
           id: 1,
-          title: 'HybridLab',
+          title: 'Hybrid',
           description: 'Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.'
         },
         {
           id: 2,
-          title: 'GamesLab',
+          title: 'Games',
           description: 'Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.'
         },
         {
-          id: 3,
-          title: 'GamesLab',
-          description: 'Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný'
-        },
-        {
           id: 4,
-          title: 'AppsLab',
+          title: 'Apps',
           description: 'Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS.'
         }
       ]
