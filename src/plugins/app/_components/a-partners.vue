@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <img src="../_icons/partners/wezeo.svg" alt="wezeo">
-    <img src="../_icons/partners/power.svg" alt="power">
-    <img src="../_icons/partners/siemens.svg" alt="siemens">
-    <img src="../_icons/partners/spsit.svg" alt="school">
-    <img src="../_icons/partners/spse.svg" alt="school">
-    <img src="../_icons/partners/hemisfera.svg" alt="hemisfera">
+  <div class="d-flex flex-wrap justify-content-around">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/wezeo.svg" alt="wezeo">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/power.svg" alt="power">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/siemens.svg" alt="siemens">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/spsit.svg" alt="school">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/spse.svg" alt="school">
+    <img class="img-fluid my-3 me-md-5" src="../_icons/partners/hemisfera.svg" alt="hemisfera">
   </div>
 </template>
 
@@ -15,6 +15,9 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="sass">
+.img-fluid
+  max-width: 100%
+  height: auto
+  object-fit: none
 </style>

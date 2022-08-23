@@ -1,49 +1,51 @@
 <template>
-  <div>
-    <h1>Ďakujeme za podporu v roku 2021!</h1>
-    <b-row>
-      <b-col class="col-2">
+  <div class="container pd-wrapper">
+    <h1 class="text-center mb-5">Ďakujeme za podporu v roku 2021!</h1>
+    <div class="mt-5 support">
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support1.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support2.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support3.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support4.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support5.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support6.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support7.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support8.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support9.svg" alt="company">
-      </b-col>
-      <b-col class="col-2">
+      </figure>
+      <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support10.svg" alt="company">
-      </b-col>
-    </b-row>
+      </figure>
+    </div>
   </div>
 </template>
 
 <script>
-import { BRow, BCol } from 'bootstrap-vue-3'
 export default {
-  name: 'support',
-  components: { BRow, BCol }
+  name: 'support'
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.support
+  display: -ms-grid
+  display: grid
+  grid-template-columns: repeat(5, 1fr)
 
 </style>

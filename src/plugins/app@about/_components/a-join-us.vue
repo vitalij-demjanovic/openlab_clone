@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>Pridajte sa k nám</h1>
-    <h1>My všetci sme OpenLab…</h1>
-    <div>
+  <div class="container pd-wrapper">
+    <h1 class="text-center">Pridajte sa k nám</h1>
+    <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
+    <div class="d-flex flex-wrap flex-md-nowrap">
       <card
         v-for="item in openLab"
         :key="item.id"

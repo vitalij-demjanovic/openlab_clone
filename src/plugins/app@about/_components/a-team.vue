@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <h1>Spoznaj nás</h1>
+  <div class="container pd-wrapper">
+    <h1 class="text-center fw-bold">Spoznaj nás</h1>
     <b-row>
       <b-col
         v-for="person in team"
         :key="person.id"
         class="col-3">
-        <img :src="person.photo" alt="person">
-        <span>{{person.role}}</span>
-        <h5>{{person.name}}</h5>
-        <p>{{person.position}}</p>
+        <img class="mb-3" :src="person.photo" alt="person">
+        <span class="text-gray">{{person.role}}</span>
+        <h5 class="mt-4 fw-bold">{{person.name}}</h5>
+        <p class="text-gray">{{person.position}}</p>
       </b-col>
     </b-row>
   </div>

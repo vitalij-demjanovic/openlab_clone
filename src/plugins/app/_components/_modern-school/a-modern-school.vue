@@ -1,14 +1,17 @@
 <template>
-  <div>
-    <b-row>
-      <b-col class="col-6">
-        <h2>Nie je moderná škola</h2>
-        <span>ako moderná škola</span>
-        <p>
+  <div class="container">
+    <b-row class="align-items-center">
+      <b-col class="col-5">
+        <h1 class="mb-3">
+          Nie je moderná škola <br>
+          <span class="fw-bold">ako moderná škola</span>
+        </h1>
+        <p class="text-gray">
           Podcast Moderná škola vznikol v spolupráci s Romanom ”Yablkom” Hraškom, kde našim zámerom je rozobrať svet štandardného vzdelávania a spôsob
           ako môže fungovať moderné vzdelávanie v technológiach.
         </p>
         <color-social/>
+        <button class="g-btn btn-lg mt-5">Moderná škola</button>
       </b-col>
       <b-col class="col-6">
         <img src="../_modern-school/_icons/modern.png" alt="Moderna skola">
