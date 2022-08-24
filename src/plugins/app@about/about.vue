@@ -149,7 +149,7 @@
           <icon name="arrow-right"/>
         </button>
       </div>
-      <a href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw" class="text-primary">Pozrieť si všetky projekty <icon name="arrow-right"/></a>
+      <a href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw" class="text-primary">Pozrieť si všetky projekty <z-icon iconName="arrow-right"/></a>
     </div>
   </div>
   <div class="container">

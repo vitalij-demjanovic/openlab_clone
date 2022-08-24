@@ -19,18 +19,26 @@
         </b-row>
       </div>
     </div>
-    <div>
-      <h1>Vzdelávanie jednoducho a efektívne</h1>
-      <div>
-        <div>
-          <img src="../app@teacher/_icons/openacademy.svg" alt="open academy">
-          <span>Viac informacií o OpenAcademy</span>
-          <icon name="arrow-right"/>
+    <div class="container pd-wrapper">
+      <h1 class="text-center mb-5">Vzdelávanie
+        <span class="fw-bold">
+          jednoducho a efektívne
+        </span>
+      </h1>
+      <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column education-card">
+          <img class="mb-5" src="../app@teacher/_icons/openacademy.svg" alt="open academy">
+          <span>
+            Viac informacií o OpenAcademy
+            <z-icon iconName="arrow-right"/>
+          </span>
         </div>
-        <div>
-          <img src="../app@teacher/_icons/drilleo.svg" alt="open academy">
-          <span>Viac informacií o Drilleo</span>
-          <icon name="arrow-right"/>
+        <div class="d-flex flex-column education-card">
+          <img class="mb-5" src="../app@teacher/_icons/drilleo.svg" alt="open academy">
+          <span>
+            Viac informacií o Drilleo
+            <z-icon iconName="arrow-right"/>
+          </span>
         </div>
       </div>
     </div>
@@ -40,19 +48,24 @@
     <div>
       <drilleo/>
     </div>
-    <div>
+    <div class="container pd-wrapper">
+      <b-row>
+        <b-col>
+          <h2 class="fw-bold text-center mb-5">Skúsenosti učiteľov</h2>
+        </b-col>
+      </b-row>
       <b-row>
         <b-col class="col-6">
-          <img src="../app@teacher/_icons/skill1.png" alt="school">
-          <h5>Z učiteľa Petra Remiša na SPŠ IT v Kys. N. Meste je dnes LabMaster</h5>
+          <img class="mb-5" src="../app@teacher/_icons/skill1.png" alt="school">
+          <h5 class="fw-bold mb4">Z učiteľa Petra Remiša na SPŠ IT v Kys. N. Meste je dnes LabMaster</h5>
           <p>
             „Minulý školský rok som sa hodín OpenLabu na našej škole zúčastňoval ako pomocník. Hodiny s odborníkmi z praxe som absolvoval rovnako ako naši študenti a veľa som sa vďaka tomu naučil.
             Ak nemáte OpenLab na Vašej škole, rozhodne odporúčam zúčastniť sa aspoň online školení, ktoré získate výborné materiály pre nové technológie, ktoré budú baviť študentov aj Vás!“
           </p>
         </b-col>
         <b-col class="col-6">
-          <img src="../app@teacher/_icons/skill2.png">
-          <h5>Drilleo využíva profesorka Lenka Vačoková na Ekonomickej Univerzite v Bratislave</h5>
+          <img class=mb-5 src="../app@teacher/_icons/skill2.png">
+          <h5 class="fw-bold mb4">Drilleo využíva profesorka Lenka Vačoková na Ekonomickej Univerzite v Bratislave</h5>
           <p>
             „Aplikáciu drilleo.sk som začala využívať začiatkom apríla.
             Prvé týždne výučby online som zrealizovala viacero testov na zopakovanie už prebratého učiva, ako aj učiva, ktoré si mali študenti naštudovať samoštúdiom.
@@ -79,7 +92,7 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import Icon from '@/plugins/app/_components/z-icon/z-icon'
+import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 import OpenAcademy from '@/plugins/app@teacher/_components/a-open-academy'
 import Drilleo from '@/plugins/app@teacher/_components/a-drilleo'
 import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
@@ -88,7 +101,7 @@ import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
   name: 'Teachers',
-  components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, Icon, BRow, BCol }
+  components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, ZIcon, BRow, BCol }
 }
 </script>
 
@@ -98,4 +111,14 @@ export default {
 
 .push-right
   margin-left: 100px
+
+.education-card
+  padding: 40px 35px
+  transition: all 0.3s ease
+  &:first-child
+    margin-right: 20px
+  &:hover
+    box-shadow: 0px 0.95237px 23.8092px rgba(99, 118, 149, 0.15)
+  span
+    color: #3597ff
 </style>

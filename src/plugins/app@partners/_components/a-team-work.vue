@@ -9,18 +9,18 @@
       <p>{{partner.description}}</p>
       <div>
         <span>Zobraziť benefity</span>
-        <arrow-right/>
+        <z-icon iconName="arrow-right"/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ArrowRight from '@/plugins/app/_components/arrow-right'
+import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 
 export default {
   name: 'team-work',
-  components: { ArrowRight },
+  components: { ZIcon },
   data () {
     return {
       partnerType: [

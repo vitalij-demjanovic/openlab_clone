@@ -11,10 +11,19 @@
       <b-col class="col-8">
         <nav>
           <ul class="nav-links d-flex">
-            <li class="link">Úvod</li>
+            <li class="link">
+              <router-link to="/">Úvod</router-link>
+            </li>
             <li class="link">OpenLab</li>
-            <li class="link">Pre učiteľov</li>
-            <li class="link">Partneri</li>
+            <li class="link">
+              <router-link to="/pre-ucitelov">Pre učiteľov</router-link>
+            </li>
+            <li class="link">
+              <router-link to="/partneri">Partneri</router-link>
+            </li>
+            <li class="link">
+              <router-link to="/moderna-skola">Moderná škola</router-link>
+            </li>
           </ul>
         </nav>
       </b-col>
@@ -43,6 +52,8 @@ export default {
   font-size: 14px
   margin-right: 1.5rem
   cursor: pointer
+  a
+    color: #1a232f
   &:hover
     color: #3597ff !important
   &:last-child
