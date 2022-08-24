@@ -1,15 +1,17 @@
 <template>
-  <div>
-    <b-row>
+  <div class="container newsletter rounded px-3 px-lg-5 mb-5 py-5 py-md-3 p-lg-5">
+    <b-row class="align-items-center">
       <b-col class="col-6">
-        <h5>Prihláste sa do nášho newslettra a budete mať</h5>
-        <span>čerstvé informácie o živote v OpenLabe.</span>
+        <h5>
+          Prihláste sa do nášho newslettra a budete mať<br>
+          <span class="fw-bold">čerstvé informácie o živote v OpenLabe.</span>
+        </h5>
       </b-col>
       <b-col class="col-6">
-        <label>
+        <label class="newsletter-label px-3 py-2 rounded d-flex justify-content-between">
           <input type="email" placeholder="Sem napíš tvoj e-mail">
           <button>
-            <img src="../_newsletter/_icons/send-message.png" alt="send">
+            <img class="btn-send" src="../_newsletter/_icons/send-message.png" alt="send">
           </button>
         </label>
       </b-col>
@@ -26,6 +28,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.newsletter
+  background: #d7eaff
 
+.newsletter-label
+  width: 100%
+  background: #ffffff !important
+  input::placeholder
+    color: #212529
+    font-weight: 400
+.btn-send
+  width: 24px
+  height: 24px
 </style>

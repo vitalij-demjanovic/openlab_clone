@@ -1,6 +1,6 @@
 <template>
   <div class="container pd-wrapper">
-    <h1 class="text-center fw-bold">Spoznaj nás</h1>
+    <h1 class="text-center fw-bold mb-5">Spoznaj nás</h1>
     <b-row>
       <b-col
         v-for="person in team"

@@ -5,7 +5,7 @@
       <b-row class="align-items-center">
         <b-col class="col-5">
           <h1>Inštitút stredoškolského odborného vzdelávania</h1>
-          <span class="title-span">zameraný na IT & AI</span>
+          <span class="title-span fw-bold">zameraný na IT & AI</span>
           <p class="text-width mt-4">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
         </b-col>
         <b-col class="col-7 d-flex justify-content-center">
@@ -166,7 +166,7 @@
       <b-col class="col-6">
         <h2 class="fw-bold">Podporte nás</h2>
         <p>OpenLab postupne rozširujeme ako neziskový vzdelávací projekt s cieľom otvoriť OpenLab-y zamerané na rôzne IT technológie na čo najväčší počet škôl vo všetkých slovenských regiónoch. Veríme, že OpenLab bude natoľko úspešný, že sa stane štandardom vzdelávania na Slovensku!</p>
-        <a href="https://www.ludialudom.sk/profil/detail/41588" class="d-flex align-items-center">Chcem podporiť <icon name="arrow-right"/></a>
+        <a href="https://www.ludialudom.sk/profil/detail/41588" class="d-flex align-items-center">Chcem podporiť <z-icon iconName="arrow-right"/></a>
       </b-col>
     </b-row>
   </div>
@@ -202,7 +202,6 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import Icon from '../app/_components/z-icon/z-icon'
 import OptionStudy from '@/plugins/app@about/_components/a-option-study'
 import JoinUs from '@/plugins/app@about/_components/a-join-us'
 import Exceptional from '@/plugins/app/_components/a-exceptional'
@@ -211,10 +210,11 @@ import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-scho
 import Support from '@/plugins/app/_components/_support/a-support'
 import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 import Partners from '@/plugins/app/_components/a-partners'
+import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 
 export default {
   name: 'MainPage',
-  components: { Icon, Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, BRow }
+  components: { ZIcon, Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, BRow }
 }
 </script>
 

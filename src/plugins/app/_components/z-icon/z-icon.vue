@@ -1,5 +1,5 @@
 <template>
-  <component :is="name"></component>
+  <component :is="iconName"></component>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
   name: 'z-icon',
   components: { ...icons },
   props: {
-    name: {
+    iconName: {
       type: String,
       required: true,
       validator (value) {

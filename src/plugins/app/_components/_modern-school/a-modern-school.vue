@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <b-row class="align-items-center">
+    <b-row class="align-items-center justify-content-between">
       <b-col class="col-5">
         <h1 class="mb-3">
           Nie je moderná škola <br>
