@@ -1,16 +1,23 @@
 <template>
   <div>
-    <div>
-      <b-row>
-        <b-col class="col-6">
-          <h1>Inštitút stredoškolského odborného vzdelávania</h1>
-          <span>zameraný na IT & AI</span>
-          <p>Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
-        </b-col>
-        <b-col class="col-6">
-          <img src="../app@teacher/_icons/main-teachers.png" alt="teachers">
-        </b-col>
-      </b-row>
+    <div class="bg-purple">
+      <div class="container">
+        <b-row class="align-items-center">
+          <b-col class="col-5">
+            <h1 class="text-white mb-4 fw-light">
+              Rozšírte svoje učebné osnovy <br>
+              <span>o to najnovšie zo sveta <br> technológií!</span>
+            </h1>
+            <p class="fw-bold text-white">
+              Naučíme Vás ako učiť študentov vyvíjať aplikácie, hry a IoT<br>
+              projekty podľa učebných materiálov od našich odborníkov z praxe.
+            </p>
+          </b-col>
+          <b-col class="col-7 d-flex justify-content-center">
+            <img class="image-visual push-right" src="../app@teacher/_icons/main-teachers.png" alt="teachers">
+          </b-col>
+        </b-row>
+      </div>
     </div>
     <div>
       <h1>Vzdelávanie jednoducho a efektívne</h1>
@@ -80,11 +87,15 @@ import Support from '@/plugins/app/_components/_support/a-support'
 import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 
 export default {
-  name: 'TeachersPage',
+  name: 'Teachers',
   components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, Icon, BRow, BCol }
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.bg-purple
+  background-color: #a54fa2 !important
 
+.push-right
+  margin-left: 100px
 </style>
