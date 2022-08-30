@@ -35,7 +35,7 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="d-flex flex-wrap justify-content-between">
+      <b-row class="d-flex flex-wrap justify-content-between mb-5">
         <b-col class="col-3 teacher-card py-4 px-3 px-md-4 py-md-5">
           <img src="../_icons/computer.svg" alt="computer">
           <p>Vytvárajte online testy pre svojich študentov</p>
@@ -69,12 +69,12 @@
           <p>Odporučte študentom oblasti na doštudovanie</p>
         </b-col>
       </b-row>
+      <b-row>
+        <b-col class="d-flex justify-content-center">
+          <button class="g-btn btn-lg">Prihlásiť sa cez Drilleo</button>
+        </b-col>
+      </b-row>
     </div>
-    <b-row>
-      <b-col>
-        <button>Prihlásiť sa cez Drilleo</button>
-      </b-col>
-    </b-row>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="gray-social">
     <a href="https://www.youtube.com/c/Modern%C3%A1%C5%A1kola">
       <img src="../_icons/social/youtube-gray.svg" alt="youtube">
     </a>
@@ -21,6 +21,10 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="sass">
+.gray-social
+  a
+    margin-right: 10px
+    &:last-child
+      margin-right: 0
 </style>

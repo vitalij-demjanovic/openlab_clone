@@ -2,14 +2,14 @@
 <div>
   <div class="bg-blue">
     <div class="container">
-      <b-row class="align-items-center">
-        <b-col class="col-5">
+      <b-row class="align-items-center position-relative">
+        <b-col class="z-index-1 col-lg-5 my-md-5 py-5">
           <h1>Inštitút stredoškolského odborného vzdelávania</h1>
           <span class="title-span fw-bold">zameraný na IT & AI</span>
           <p class="text-width mt-4">Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania</p>
         </b-col>
         <b-col class="col-7 d-flex justify-content-center">
-          <img class="image-visual" src="../app@about/_icons/introduction-img.png" alt="introduction">
+          <img class="image-vid" src="../app@about/_icons/introduction-img.png" alt="introduction">
         </b-col>
       </b-row>
     </div>

@@ -1,15 +1,21 @@
 <template>
-  <div>
-    <h1>Staňte sa našim partnerom</h1>
-    <div
-      v-for="partner in partnerType"
-      :key="partner.id"
-    >
-      <h5>{{partner.title}}</h5>
-      <p>{{partner.description}}</p>
-      <div>
-        <span>Zobraziť benefity</span>
-        <z-icon iconName="arrow-right"/>
+  <div class="pd-wrapper">
+    <h1 class="text-center mb-5">
+      <span class="fw-bold">Staňte sa</span>
+      našim partnerom
+    </h1>
+    <div class="d-flex">
+      <div
+        class="card-body card-body-team px-4 pt-4 pb-5 px-xl-5"
+        v-for="partner in partnerType"
+        :key="partner.id"
+      >
+        <h5>{{partner.title}}</h5>
+        <p>{{partner.description}}</p>
+        <div class="card-body-team_item">
+          <span>Zobraziť benefity</span>
+          <z-icon class="space-left" iconName="arrow-right"/>
+        </div>
       </div>
     </div>
   </div>
@@ -23,6 +29,7 @@ export default {
   components: { ZIcon },
   data () {
     return {
+      selectTab: 1,
       partnerType: [
         {
           id: 1,
@@ -50,6 +57,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.card-body-team
+  .card-body-team_item
+    color: #3597ff !important
+  &.active
+    background: #3597ff !important
+    color: #ffffff !important
+    .card-body-team_item
+      color: #ffffff !important
 
+.space-left
+  margin-left: 5px
 </style>

@@ -2,8 +2,8 @@
   <div>
     <div class="bg-purple">
       <div class="container">
-        <b-row class="align-items-center">
-          <b-col class="col-5">
+        <b-row class="align-items-center position-relative">
+          <b-col class="z-index-1 col-lg-5 my-md-5 py-5">
             <h1 class="text-white mb-4 fw-light">
               Rozšírte svoje učebné osnovy <br>
               <span>o to najnovšie zo sveta <br> technológií!</span>
@@ -14,7 +14,7 @@
             </p>
           </b-col>
           <b-col class="col-7 d-flex justify-content-center">
-            <img class="image-visual push-right" src="../app@teacher/_icons/main-teachers.png" alt="teachers">
+            <img class="image-vid" src="../app@teacher/_icons/main-teachers.png" alt="teachers">
           </b-col>
         </b-row>
       </div>
