@@ -3,6 +3,9 @@ import about from '../plugins/app@about/about.vue'
 import teacher from '../plugins/app@teacher/teachers.vue'
 import partners from '../plugins/app@partners/partners.vue'
 import modernaSkola from '../plugins/app@school/school.vue'
+import HybridLab from '@/plugins/app@hybridlab/hybrid-lab.vue'
+import GamesLab from '@/plugins/app@gameslab/games-lab'
+import AppLab from '@/plugins/app@applab/app-lab'
 
 const routes = [
   {
@@ -24,6 +27,21 @@ const routes = [
     path: '/moderna-skola',
     component: modernaSkola,
     name: 'Skola'
+  },
+  {
+    path: '/hybridlab',
+    component: HybridLab,
+    name: 'HybridLab'
+  },
+  {
+    path: '/gameslab',
+    component: GamesLab,
+    name: 'GamesLab'
+  },
+  {
+    path: '/applab',
+    component: AppLab,
+    name: 'AppLab'
   }
 ]
 

@@ -21,7 +21,20 @@
             <li class="link">
               <router-link to="/">Úvod</router-link>
             </li>
-            <li class="link">OpenLab</li>
+            <li class="link">
+              OpenLab
+              <ul class="submenu">
+                <li class="submenu-item">
+                  <router-link to="/hybridlab">HybridLab</router-link>
+                </li>
+                <li class="submenu-item">
+                  <router-link to="/gameslab">GamesLab</router-link>
+                </li>
+                <li class="submenu-item">
+                  <router-link to="/applab">AppsLab</router-link>
+                </li>
+              </ul>
+            </li>
             <li class="link">
               <router-link to="/pre-ucitelov">Pre učiteľov</router-link>
             </li>
