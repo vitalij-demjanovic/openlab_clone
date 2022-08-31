@@ -88,7 +88,7 @@
         :options="options"
       />
     </div>
-    <div>
+    <div class="pd-wrapper">
       <discort/>
     </div>
     <div>
