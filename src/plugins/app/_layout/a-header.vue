@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-3 mb-5">
+  <div class="container mt-3 mb-3">
     <div class="d-flex align-items-center justify-content-center border-bott pb-3 mb-3">
       <p class="text-gray mb-0">Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
       <div class="discord-community d-flex align-items-center">
@@ -21,13 +21,14 @@
             <li class="link">
               <router-link to="/">Úvod</router-link>
             </li>
-            <li class="link">
+            <li class="link-submenu position-relative">
               OpenLab
-              <ul class="submenu">
-                <li class="submenu-item">
+              <z-icon icon-name="arrow-down"/>
+              <ul class="submenu position-absolute">
+                <li class="submenu-item mb-2">
                   <router-link to="/hybridlab">HybridLab</router-link>
                 </li>
-                <li class="submenu-item">
+                <li class="submenu-item mb-2">
                   <router-link to="/gameslab">GamesLab</router-link>
                 </li>
                 <li class="submenu-item">
@@ -95,4 +96,30 @@ export default {
     color: #3597ff !important
   &:last-child
     margin-right: 0
+
+.link-submenu
+  font-size: 14px
+  margin-right: 1.5rem
+  cursor: pointer
+  &:hover
+    .submenu
+      display: block
+
+.submenu
+  display: none
+  top: 100%
+  padding: 0.5rem 1rem 0 0
+  z-index: 1
+  font-weight: 500
+  background: #ffffff
+  border-radius: 6px
+  a
+    color: #1a232f !important
+    transition: all 0.3s ease
+    &:hover
+      color: #3597ff !important
+
+.submenu-item
+  padding: 0.25rem 1rem !important
+
 </style>
