@@ -1,41 +1,49 @@
 <template>
   <div>
-    <div>
-      <b-row>
-        <b-col class="col-6">
-          <h1>Poď študovať GamesLab a nauč sa tvoriť počítačové hry</h1>
-          <p>Vývoj počítačových hier, je odvetvie, ktoré predstavuje jeden z najrýchlejšie rastúcich technologických priemyslov a je vstupnou bránou do IT sveta pre väčšinu mládeže.
-            Počas štúdia v OpenLabe sa naučíš hry nielen “konzumovať” ale staneš sa aj ich tvorcom, budeš vedieť vytvoriť počítačovú hru dostupnú na platformách ako Apple Store, Play Store alebo Steam.</p>
-        </b-col>
-        <b-col class="col-6">
-          <img src="../app@gameslab/_icons/main-gameslab.png" alt="introduction">
-        </b-col>
-      </b-row>
+    <div class="bg-green">
+      <div class="container">
+        <b-row class="align-items-center position-relative">
+          <b-col class="z-index-1 col-lg-5 my-md-5 py-5">
+            <h1 class="mb-4 text-white fw-light">Poď študovať GamesLab <br> a nauč sa tvoriť počítačové hry</h1>
+            <p class="text-white fw-bold">Vývoj počítačových hier, je odvetvie, ktoré predstavuje jeden z najrýchlejšie rastúcich technologických priemyslov a je vstupnou bránou do IT sveta pre väčšinu mládeže.
+              Počas štúdia v OpenLabe sa naučíš hry nielen “konzumovať” ale staneš sa aj ich tvorcom, budeš vedieť vytvoriť počítačovú hru dostupnú na platformách ako Apple Store, Play Store alebo Steam.</p>
+          </b-col>
+          <b-col class="col-7 d-flex justify-content-center">
+            <img class="image-vid" src="../app@gameslab/_icons/main-gameslab.png" alt="introduction">
+          </b-col>
+        </b-row>
+      </div>
     </div>
-    <div>
-      <b-row>
+    <div class="container pd-wrapper">
+      <b-row class="align-items-center">
         <b-col class="col-6">
-          <h2>Načo je zameraný GamesLab?</h2>
-          <p>
+          <h1 class="fw-light mb-3">
+            Načo je zameraný <br>
+            <span class="fw-bold">GamesLab?</span>
+          </h1>
+          <p class="text-gray fw-bold">
             Základnou profiláciou je vývoj digitálnych hier, v ktorej sa budeš ako študent GamesLabu rozvíjať.
             Počas štúdia si prejdeš celým procesom tvorby hry od nápadu až po jej publikovanie v Apple Store, Play Store alebo na Steame.
             Naučíš sa ako funguje nielen programovanie, tvorba 2D/3D grafiky ale aj game design v podobe herných mechaník, ktoré sú základom každej hry. Budeš sa učiť tvoriť hry pre rôzne platformy (mobil / desktop / web).
             Po skončení štúdia, ako absolvent budeš uplatniteľný v herných štúdiách ako game dizajnér, unity programátor alebo grafik, môžeš si skúsiť založiť vlastné podnikanie alebo pokračovať vysokoškolským vzdelaním.
           </p>
         </b-col>
-        <b-col class="col-6">
+        <b-col class="col-6 d-flex justify-content-end">
           <img src="../app@gameslab/_icons/gameslab.svg" alt="games">
         </b-col>
       </b-row>
     </div>
-    <div>
-      <b-row>
+    <div class="container pd-wrapper">
+      <b-row class="align-items-center">
         <b-col class="col-6">
           <img src="../app@gameslab/_icons/gameslab-person.png" alt="games">
         </b-col>
-        <b-col class="col-6">
-          <h2>Pre koho je GamesLab určený?</h2>
-          <p>
+        <b-col class="col-5 offset-1">
+          <h1 class="fw-light mb-3">
+            Pre koho je <br>
+            <span class="fw-bold">GamesLab určený?</span>
+          </h1>
+          <p class="text-gray fw-bold">
             GamesLab je určený pre úplných začiatočníkov, ktorí sa chcú venovať vývoju počítačových hier a chcú sa naučiť vytvoriť hru v 2D
             grafike alebo 3D grafike, prípadne špecializovať v odvetví ako herný dizajnér/ka.
           </p>
@@ -45,8 +53,11 @@
     <div>
       <place-study/>
     </div>
-    <div>
-      <h2>S akými technológiami budeš pracovať?</h2>
+    <div class="container">
+      <h2 class="fw-light mb-5">
+        <span class="fw-bold">S akými technológiami</span><br>
+        budeš pracovať?
+      </h2>
       <b-row>
         <b-col
           v-for="technology in technologies"
@@ -160,6 +171,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
 
 </style>

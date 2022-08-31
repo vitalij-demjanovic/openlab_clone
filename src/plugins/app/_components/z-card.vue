@@ -1,5 +1,5 @@
 <template>
-  <div class="card-body px-4 pt-4 pb-5 px-xl-5">
+  <div class="card-body px-4 pt-4 pb-5 px-xl-5 ">
     <h5 class="fw-bold">{{title}}<span class="fw-light">Lab</span></h5>
     <p class="text-gray">{{description}}</p>
     <div class="card-body_icon">
@@ -23,6 +23,7 @@ export default {
 
 <style lang="sass">
 .card-body
+  max-width: 288px
   border-radius: 5px
   transition: all 0.5s ease
   cursor: pointer

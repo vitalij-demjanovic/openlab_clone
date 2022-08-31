@@ -1,5 +1,5 @@
 <template>
-  <div class="pd-wrapper-border">
+  <div class="container pd-wrapper-border">
     <h2 class="text-center">Čím sme <span class="fw-bold">výnimoční?</span></h2>
     <div class="d-flex flex-wrap card-exceptional">
       <div class="card-exceptional-item col-4">

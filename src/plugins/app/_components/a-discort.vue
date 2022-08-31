@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container discord-bg">
     <b-row>
       <b-col>
         <h2>Pridaj sa k nám na Discord!</h2>
@@ -25,6 +25,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="">
 
 </style>
