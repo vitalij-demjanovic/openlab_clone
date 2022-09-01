@@ -1,43 +1,53 @@
 <template>
   <div>
-    <div>
-      <b-row>
-        <b-col class="col-6">
-          <h1>Poď študovať HybridLab</h1>
-          <span>a nauč sa tvoriť hybridné aplikácie</span>
-          <p>
-            Hybridné aplikácie vyučované v tomto Labe, predstavujú budúcnosť vo vývoji webových a mobilných aplikácií.
-            Počas štúdia sa naučíš vytvoriť hybridnú aplikáciu pre zákazníka, dostupnú na najrozšírenejších platformách ( web, iOS/ Andoid, Windows)
-          </p>
-        </b-col>
-        <b-col class="col-6">
-          <img src="../app@hybridlab/_icons/main-hybridlab.png" alt="hybridlab">
-        </b-col>
-      </b-row>
+    <div class="bg-orange">
+      <div class="container">
+        <b-row class="align-items-center position-relative">
+          <b-col class="z-index-1 col-lg-5 my-md-5 py-5">
+            <h1 class="text-white fw-light mb-4">
+              <span class="fw-bold">Poď študovať Hybrid</span>Lab<br>
+              <span class="fw-light"> a nauč sa tvoriť hybridné aplikácie</span>
+            </h1>
+            <p class="text-white fw-bold">
+              Hybridné aplikácie vyučované v tomto Labe, predstavujú budúcnosť vo vývoji webových a mobilných aplikácií.
+              Počas štúdia sa naučíš vytvoriť hybridnú aplikáciu pre zákazníka, dostupnú na najrozšírenejších platformách ( web, iOS/ Andoid, Windows)
+            </p>
+          </b-col>
+          <b-col class="col-7 d-flex justify-content-center">
+            <img class="image-vid" src="../app@hybridlab/_icons/main-hybridlab.png" alt="hybridlab">
+          </b-col>
+        </b-row>
+      </div>
     </div>
-    <div>
-      <b-row>
+    <div class="container pd-wrapper">
+      <b-row class="align-items-center">
         <b-col class="col-6">
-          <h2>Načo je zameraný HybridLab?</h2>
-          <p>
+          <h2 class="mb-4">
+            Načo je zameraný
+            <span class="fw-bold">HybridLab?</span>
+          </h2>
+          <p class="text-gray">
             Základnou profiláciou je vývoj hybridných aplikácií, v ktorej sa budeš ako študent HybridLabu rozvíjať.
             Pri hybridnom vývoji sa používa na programovanie aplikácie jedna technológia, ktorú je následne možné publikovať na všetkých zariadeniach a operačných systémoch od počítačov, mobilov, IoT zariadení až po inteligentné hodinky a iné.
             Po skončení štúdia, ako absolvent budeš uplatniteľný vo všetkých IT segmentoch na rôznych pozíciách
             napr. ako frontend/ backend developer, UI alebo UX dizajnér, projektový manažér alebo analytik vo firmách využívajúcich hybridné technológie, môžeš si skúsiť založiť vlastné podnikanie alebo pokračovať vysokoškolským vzdelaním.
           </p>
         </b-col>
-        <b-col class="col-6">
+        <b-col class="col-6 d-flex justify-content-end">
           <img src="../app@hybridlab/_icons/hybridlab.svg" alt="hybridlab">
         </b-col>
       </b-row>
     </div>
-    <div>
-      <b-row>
+    <div class="container">
+      <b-row class="align-items-center">
         <b-col class="col-6">
           <img src="../app@hybridlab/_icons/hybridlab-person.png" alt="person">
         </b-col>
         <b-col class="col-6">
-          <h2>Pre koho je HybridLab určený?</h2>
+          <h1 class="mb-4">
+            Pre koho je
+            <span class="fw-bold">HybridLab určený?</span>
+          </h1>
           <p>
             Pre úplných začiatočníkov, ktorí sa chcú venovať aplikačnému
             vývoju a chcú sa naučiť pomocou jednej technológie vytvoriť aplikáciu
@@ -49,20 +59,25 @@
     <div>
      <place-study/>
     </div>
-    <div>
-      <h2>S akými technológiami budeš pracovať?</h2>
-      <b-row>
-        <b-col
-          v-for="technology in technologies"
-          :key="technology.id"
-        >
-          <technology-card
-            :image="technology.image"
-            :title="technology.title"
-            :description="technology.description"
-          />
-        </b-col>
-      </b-row>
+    <div class="bg-light-blue">
+      <div class="container pd-wrapper">
+        <h1 class="mb-5 fw-bold">
+          S akými technológiami<br>
+          <span class="fw-light">budeš pracovať?</span>
+        </h1>
+        <b-row>
+          <b-col
+            v-for="technology in technologies"
+            :key="technology.id"
+          >
+            <technology-card
+              :image="technology.image"
+              :title="technology.title"
+              :description="technology.description"
+            />
+          </b-col>
+        </b-row>
+      </div>
     </div>
     <div>
       <h2>Ako prebieha výuka</h2>

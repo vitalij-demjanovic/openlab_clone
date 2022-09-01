@@ -1,42 +1,53 @@
 <template>
   <div>
-    <div>
-      <b-row>
-        <b-col class="col-6">
-          <h1 class="title">Poď študovať AppsLab a nauč sa tvoriť softvérové aplikácie</h1>
-          <p>
-            Technológie používané na vývoj softvéru predstavujú aktuálne veľkú časť technologického priemyslu.
-            Počas štúdia v OpenLabe sa preto naučíš ako vytvoriť softvérovú aplikáciu v mobile a na webe s použitím populárnych programovacích jazykov ako Java, C#, Angular, naučíš sa princípy objektovo orientovaného programovania a skúsiš si aj prácu s databázou.
-          </p>
-        </b-col>
-        <b-col class="col-6">
-          <img src="../app@applab/_icons/main-appslab.png" alt="applab">
-        </b-col>
-      </b-row>
+    <div class="bg-blue">
+      <div class="container">
+        <b-row class="align-items-center position-relative">
+          <b-col class="z-index-1 col-lg-5 my-md-5 py-5">
+            <h1 class="title fw-light mb-4">
+              <span class="fw-bold">Poď študovať Apps</span>Lab <br>
+              <span>a nauč sa tvoriť softvérové aplikácie</span>
+            </h1>
+            <p class="fw-bold">
+              Technológie používané na vývoj softvéru predstavujú aktuálne veľkú časť technologického priemyslu.
+              Počas štúdia v OpenLabe sa preto naučíš ako vytvoriť softvérovú aplikáciu v mobile a na webe s použitím populárnych programovacích jazykov ako Java, C#, Angular, naučíš sa princípy objektovo orientovaného programovania a skúsiš si aj prácu s databázou.
+            </p>
+          </b-col>
+          <b-col class="col-7 d-flex justify-content-center">
+            <img src="../app@applab/_icons/main-appslab.png" alt="applab">
+          </b-col>
+        </b-row>
+      </div>
     </div>
-    <div>
-      <b-row>
+    <div class="container pd-wrapper">
+      <b-row class="align-items-center">
         <b-col class="col-6">
-          <h2>Načo je zameraný AppsLab?</h2>
-          <p>
+          <h1 class="mb-4 fw-light">
+            Načo je zameraný <br>
+            <span class="fw-bold">AppsLab?</span>
+          </h1>
+          <p class="text-gray">
             Základnou profiláciou je vývoj softvérových aplikácií, v ktorej sa budeš ako študent AppsLabu rozvíjať. S pomocou LabMastrov sa budeš učiť programátorskému spôsobu uvažovania, trénovať schopnosť klásť správne otázky Google, spolužiakom ale aj sebe.
             Takisto si prejdeš princípmi objektovo orientovaného programovania. V 2. ročníku sa budeš zameriavať viac na mobilné aplikácie, v 3 a 4. prejdeš na webové aplikácie. Počas štúdia s OpenLabom budeš mať príležitosť si vyskúšať okrem populárnych programovacích jazykov ako Java, C#, Angular, aj prácu s databázou. Dôraz sa kladie tiež na grafickú stránku aplikácii a moderný dizajn.
             Po skončení štúdia, ako absolvent budeš uplatniteľný v technologických firmách napr. ako software developer, môžeš si skúsiť založiť vlastné podnikanie alebo pokračovať vysokoškolským vzdelaním.
           </p>
         </b-col>
-        <b-col class="col-6">
+        <b-col class="col-6 d-flex justify-content-end">
           <img src="../app@applab/_icons/appslab.svg" alt="appdlab">
         </b-col>
       </b-row>
     </div>
-    <div>
-      <b-row>
+    <div class="container pd-wrapper">
+      <b-row class="align-items-center">
         <b-col class="col-6">
           <img src="../app@applab/_icons/appslab-person.png" alt="person">
         </b-col>
         <b-col class="col-6">
-          <h2>Pre koho je AppsLab určený?</h2>
-          <p>
+          <h1 class="fw-light mb-4">
+            Pre koho je <br>
+            <span class="fw-bold">AppsLab určený?</span>
+          </h1>
+          <p class="text-gray">
             AppsLab je určený pre úplných začiatočníkov, ktorí sa chcú venovať vývoju softvérových aplikácii
             na mobile alebo webe, chcú vedieť programovať v najrozšírenejších programovacích jazykoch ako Java, C# alebo Angular a následne
             sa špecializovať v odvetví napr. ako software developer.
@@ -44,19 +55,22 @@
         </b-col>
       </b-row>
     </div>
-    <div>
-      <h2>Kde môžeš študovať HybridLab?</h2>
-      <b-row>
-        <b-col class="col-6">
-          <span>V študijnom odbore</span>
-          <h3>Programovanie digitálnych technológií</h3>
-          <p>Tvorba aplikácií a hier, inovatívne myslenie, práca na reálnych projektoch.</p>
-          <button>Chcem vedieť viac o odbore</button>
+    <div class="container pd-wrapper">
+      <h1 class="text-center mb-5">
+        <span class="fw-bold">Kde môžeš študovať</span>
+        AppsLab?
+      </h1>
+      <b-row class="align-items-center">
+        <b-col class="col-4 offset-1">
+          <span class="text-gray">V študijnom odbore</span>
+          <h2 class="fw-bold mb-4">Informačné<br> a sieťové technológie</h2>
+          <p class="text-gray mb-4">Tvorba aplikácií a hier, inovatívne myslenie, práca na reálnych projektoch.</p>
+          <button class="g-btn btn-lg">Chcem vedieť viac o odbore</button>
         </b-col>
-        <b-col class="col-6">
-          <img src="../app@applab/_icons/school2.png" alt="school">
-          <h5>Stredná Priemyselná Škola Informačných Technológií</h5>
-          <div>
+        <b-col class="col-6 offset-1">
+          <img class="mb-4" src="../app@applab/_icons/school2.png" alt="school">
+          <h5 class="fw-bold mb-3">Stredná Priemyselná Škola Informačných Technológií</h5>
+          <div class="d-flex justify-content-between">
             <span>Nábrežná 1325, 024 01 Kysucké Nové Mesto</span>
             <a href="https://www.spsknm.sk/">www.spsknm.sk/</a>
           </div>
@@ -98,7 +112,7 @@
     <div>
       <discort/>
     </div>
-    <div>
+    <div class="pd-wrapper">
       Instagram Feed
     </div>
     <div>
