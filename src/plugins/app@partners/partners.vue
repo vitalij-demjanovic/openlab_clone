@@ -31,10 +31,10 @@
       </p>
     </div>
     <div class="container">
-      <team-work/>
+      <team-work @active-tab="changeTab"/>
     </div>
     <div>
-      <marketing-partner/>
+      <a-partner-tabs :show-tab="currentTab"/>
     </div>
     <div>
       Instagram Feed
@@ -54,15 +54,25 @@
 <script>
 import Partners from '@/plugins/app/_components/a-partners'
 import TeamWork from '@/plugins/app@partners/_components/a-team-work'
-import MarketingPartner from '@/plugins/app@partners/_components/a-marketing-partner'
 import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
 import Support from '@/plugins/app/_components/_support/a-support'
 import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
 import { BCol, BRow } from 'bootstrap-vue-3'
+import APartnerTabs from '@/plugins/app@partners/_components/a-partner-tabs'
 
 export default {
   name: 'PartnersPage',
-  components: { BCol, BRow, Newsletter, Support, ModernSchool, MarketingPartner, TeamWork, Partners }
+  components: { APartnerTabs, BCol, BRow, Newsletter, Support, ModernSchool, TeamWork, Partners },
+  data () {
+    return {
+      currentTab: 0
+    }
+  },
+  methods: {
+    changeTab (i) {
+      this.currentTab = i
+    }
+  }
 }
 </script>
 

@@ -1,20 +1,22 @@
 <template>
-  <div class="pd-wrapper">
-    <h1 class="text-center mb-5">
-      <span class="fw-bold">Staňte sa</span>
-      našim partnerom
-    </h1>
-    <div class="d-flex">
-      <div
-        class="card-body card-body-team px-4 pt-4 pb-5 px-xl-5"
-        v-for="partner in partnerType"
-        :key="partner.id"
-      >
-        <h5>{{partner.title}}</h5>
-        <p>{{partner.description}}</p>
-        <div class="card-body-team_item">
-          <span>Zobraziť benefity</span>
-          <z-icon class="space-left" iconName="arrow-right"/>
+  <div>
+    <div class="pd-wrapper">
+      <h1 class="text-center mb-5">
+        <span class="fw-bold">Staňte sa</span>
+        našim partnerom
+      </h1>
+      <div class="d-flex justify-content-between">
+        <div
+          v-for="(partner, index) in partnerType"
+          :key="partner.id"
+          :class="['card-body', 'card-body-team', 'px-4', 'pt-4', 'pb-5', 'px-xl-5', {active: index === selectTab}]"
+          @click="changeTab(index)">
+          <h5>{{partner.title}}</h5>
+          <p>{{partner.description}}</p>
+          <div class="card-body-team_item">
+            <span>Zobraziť benefity</span>
+            <z-icon class="space-left" iconName="arrow-right"/>
+          </div>
         </div>
       </div>
     </div>
@@ -29,7 +31,7 @@ export default {
   components: { ZIcon },
   data () {
     return {
-      selectTab: 1,
+      selectTab: 0,
       partnerType: [
         {
           id: 1,
@@ -52,6 +54,12 @@ export default {
           description: 'Prístup k talentom dostupných mimo prioritný výber tech partnerov.'
         }
       ]
+    }
+  },
+  methods: {
+    changeTab (i) {
+      this.selectTab = i
+      this.$emit('activeTab', this.selectTab)
     }
   }
 }

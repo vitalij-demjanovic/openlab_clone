@@ -84,7 +84,7 @@
       <exceptional/>
     </div>
     <div>
-      Slider
+      <a-hybrid-slider/>
     </div>
     <div>
       <div>
@@ -129,10 +129,11 @@ import Students from '@/plugins/app/_components/a-students'
 import Options from '@/plugins/app@hybridlab/_components/z-options'
 import Discort from '@/plugins/app/_components/a-discort'
 import PlaceStudy from '@/plugins/app/_components/a-place-study'
+import AHybridSlider from '@/plugins/app@hybridlab/_components/a-hybrid-slider'
 
 export default {
   name: 'hybrid-lab',
-  components: { PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
+  components: { AHybridSlider, PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
   data () {
     return {
       technologies: [
