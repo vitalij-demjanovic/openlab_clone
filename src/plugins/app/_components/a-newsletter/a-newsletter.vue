@@ -11,7 +11,7 @@
         <label class="newsletter-label px-3 py-2 rounded d-flex justify-content-between">
           <input type="email" placeholder="Sem napíš tvoj e-mail">
           <button>
-            <img class="btn-send" src="../_newsletter/_icons/send-message.png" alt="send">
+            <img class="btn-send" src="../a-newsletter/_icons/send-message.png" alt="send">
           </button>
         </label>
       </b-col>

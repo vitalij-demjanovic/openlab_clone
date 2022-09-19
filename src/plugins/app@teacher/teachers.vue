@@ -98,9 +98,9 @@ import { BCol, BRow } from 'bootstrap-vue-3'
 import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 import OpenAcademy from '@/plugins/app@teacher/_components/a-open-academy'
 import Drilleo from '@/plugins/app@teacher/_components/a-drilleo'
-import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/_support/a-support'
-import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/a-support/a-support'
+import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 
 export default {
   name: 'Teachers',

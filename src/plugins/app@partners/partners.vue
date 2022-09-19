@@ -54,9 +54,9 @@
 <script>
 import Partners from '@/plugins/app/_components/a-partners'
 import TeamWork from '@/plugins/app@partners/_components/a-team-work'
-import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/_support/a-support'
-import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/a-support/a-support'
+import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import { BCol, BRow } from 'bootstrap-vue-3'
 import APartnerTabs from '@/plugins/app@partners/_components/a-partner-tabs'
 

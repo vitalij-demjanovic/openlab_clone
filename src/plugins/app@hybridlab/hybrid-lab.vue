@@ -119,9 +119,9 @@
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/_support/a-support'
-import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/a-support/a-support'
+import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import TechnologyCard from '@/plugins/app/_components/z-technology-card'
 import Ionic from '../app@hybridlab/_icons/icon-ionic.svg'
 import VueIcon from '../app@hybridlab/_icons/icon-vue.svg'

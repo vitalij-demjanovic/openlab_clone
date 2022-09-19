@@ -14,7 +14,7 @@
         <button class="g-btn btn-lg mt-5">Moderná škola</button>
       </b-col>
       <b-col class="col-6">
-        <img src="../_modern-school/_icons/modern.png" alt="Moderna skola">
+        <img src="../a-modern-school/_icons/modern.png" alt="Moderna skola">
       </b-col>
     </b-row>
   </div>

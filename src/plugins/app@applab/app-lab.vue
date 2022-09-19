@@ -144,9 +144,9 @@ import SchoolYear from '@/plugins/app@about/_components/a-school-year'
 import Students from '@/plugins/app/_components/a-students'
 import Options from '@/plugins/app@hybridlab/_components/z-options'
 import Discort from '@/plugins/app/_components/a-discort'
-import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/_support/a-support'
-import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/a-support/a-support'
+import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 
 export default {
   name: 'app-lab',

@@ -88,9 +88,9 @@
 import { BRow, BCol } from 'bootstrap-vue-3'
 import GreySocial from '@/plugins/app/_components/a-grey-social'
 import ColorSocial from '@/plugins/app/_components/a-color-social'
-import ModernSchool from '@/plugins/app/_components/_modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/_support/a-support'
-import Newsletter from '@/plugins/app/_components/_newsletter/a-newsletter'
+import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import Support from '@/plugins/app/_components/a-support/a-support'
+import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import Episodes from '@/plugins/app@school/_components/a-episodes'
 import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 
