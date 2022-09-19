@@ -21,8 +21,8 @@
 
 [ok] prehodiť všetko css do sass
 [ok] prehodit icons do componentov v app
-[] a-exceptonal prerobit na komponent v for
-[] podporte nas ....dat do komponentu
+[ok] a-exceptonal prerobit na komponent v for
+[ok] podporte nas ....dat do komponentu
 [] instagram feed
 [] about prerobit do componentov
 [] app/componnet _ vymazat 

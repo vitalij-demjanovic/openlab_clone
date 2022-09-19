@@ -1,6 +1,11 @@
 <template>
   <div class="container pd-wrapper">
-    <h1 class="text-center mb-5">Ďakujeme za podporu v roku 2021!</h1>
+    <h1 class="text-center mb-5 fw-light">
+      {{title}}
+      <span class="fw-bold">
+        {{spanTitle}}
+      </span>
+    </h1>
     <div class="mt-5 support">
       <figure class="d-flex justify-content-center align-items-center mx-2 my-3 my-md-0">
         <img src="../_support/_icons/support1.svg" alt="company">
@@ -38,7 +43,11 @@
 
 <script>
 export default {
-  name: 'support'
+  name: 'support',
+  props: {
+    title: String,
+    spanTitle: String
+  }
 }
 </script>
 

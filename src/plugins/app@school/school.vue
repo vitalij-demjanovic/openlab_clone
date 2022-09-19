@@ -74,7 +74,10 @@
     <modern-school/>
   </div>
   <div>
-    <support/>
+    <support
+      title="Ostaňte s nami"
+      span-title="v kontakte"
+    />
   </div>
   <div>
     <newsletter/>

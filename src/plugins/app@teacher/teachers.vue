@@ -82,7 +82,10 @@
       <modern-school/>
     </div>
     <div>
-      <support/>
+      <support
+        title="Ďakujeme za"
+        span-title="podporu v roku 2021!"
+      />
     </div>
     <div>
       <newsletter/>

@@ -119,7 +119,10 @@
       <modern-school/>
     </div>
     <div>
-      <support/>
+      <support
+        title="Ďakujeme za"
+        span-title="podporu"
+      />
     </div>
     <div>
       <newsletter/>
