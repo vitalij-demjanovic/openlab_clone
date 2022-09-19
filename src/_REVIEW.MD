@@ -25,7 +25,7 @@
 [ok] podporte nas ....dat do komponentu
 [] instagram feed
 [] about prerobit do componentov
-[] app/componnet _ vymazat 
+[ok] app/componnet _ vymazat 
 
 
 

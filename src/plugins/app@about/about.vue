@@ -186,8 +186,8 @@
       </b-col>
     </b-row>
   </div>
-  <div class="container pd-wrapper">
-    Instagram Feed
+  <div class="pd-wrapper">
+    <a-instagram-feed/>
   </div>
   <section>
     <modern-school/>
@@ -215,10 +215,11 @@ import Support from '@/plugins/app/_components/a-support/a-support'
 import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import Partners from '@/plugins/app/_components/a-partners'
 import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
+import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'MainPage',
-  components: { ZIcon, Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, BRow }
+  components: { AInstagramFeed, ZIcon, Partners, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy, BCol, BRow }
 }
 </script>
 
