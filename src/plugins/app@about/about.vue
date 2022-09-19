@@ -14,6 +14,7 @@
       </b-row>
     </div>
   </div>
+<!--Nasa -->
   <div class="pd-wrapper container">
     <b-row>
       <b-col class="text-center">
@@ -188,9 +189,9 @@
   <div class="container pd-wrapper">
     Instagram Feed
   </div>
-  <div>
+  <section>
     <modern-school/>
-  </div>
+  </section>
   <div>
     <support/>
   </div>

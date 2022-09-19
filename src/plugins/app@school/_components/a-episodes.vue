@@ -11,7 +11,7 @@
             <img src="../../app@school/_icons/episode2.jpeg">
             <img
               class="position-absolute start-50 top-50 translate-middle play-btn"
-              src="../../app/_icons/play.svg"
+              src="../_icons/play.svg"
               @click="modalShow = !modalShow"
             >
             <b-modal v-model="modalShow" class="p-0" id="modal-xl" size="xl">
@@ -34,7 +34,7 @@
             <img src="../../app@school/_icons/episode1.jpeg">
             <img
               class="position-absolute start-50 top-50 translate-middle play-btn"
-              src="../../app/_icons/play.svg"
+              src="../_icons/play.svg"
               @click="modalShowSecond = !modalShowSecond"
             >
             <b-modal v-model="modalShowSecond" class="p-0 w-100" id="modal-xl" size="xl">

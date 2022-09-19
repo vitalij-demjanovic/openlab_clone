@@ -11,7 +11,7 @@
       <b-col class="col-2">
         <div class="logo">
           <a href="/">
-            <img src="../_icons/openlab-logo.svg" alt="logo">
+            <img src="../_components/_icons/openlab-logo.svg" alt="logo">
           </a>
         </div>
       </b-col>

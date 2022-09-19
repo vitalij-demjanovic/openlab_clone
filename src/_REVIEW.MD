@@ -16,3 +16,16 @@
 
 [Control] spravil si si arrow-right.vue na ikonku… skusme ale  spravit generickejsi komponent, kam posles nazov ikony a ta sa zobrazi… 
     a potom by som to premenoval na z-icon alebo nieco podobne…
+
+#19.9.2020
+
+[ok] prehodiť všetko css do sass
+[ok] prehodit icons do componentov v app
+[] a-exceptonal prerobit na komponent v for
+[] podporte nas ....dat do komponentu
+[] instagram feed
+[] about prerobit do componentov
+[] app/componnet _ vymazat 
+
+
+

@@ -12,7 +12,7 @@
         <button class="g-btn btn-lg">Chcem vedieť viac o odbore</button>
       </b-col>
       <b-col class="col-6 offset-1">
-        <img class="mb-4" src="../_icons/school1.png" alt="school">
+        <img class="mb-4" src="../_components/_icons/school1.png" alt="school">
         <h5 class="fw-bold mb-3">Stredná Priemyselná Škola Elektrotechnická</h5>
         <div class="d-flex justify-content-between">
           <span>Hálova 16, 851 01 Bratislava</span>

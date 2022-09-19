@@ -6,11 +6,11 @@
         <p class="text-white mb-5">Pozývame ťa k nám do channelu pre žiakov 9. ročníka, kde môžeš nasať IT atmosféru, spoznať nielen svojich budúcich spolužiakov, ale aj kopec iných zaujímavých ľudí.</p>
         <button class="discord-btn">
           Pridať sa na Discort
-          <img src="../_icons/discort/discord.svg" alt="discort">
+          <img src="../_components/_icons/discort/discord.svg" alt="discort">
         </button>
       </b-col>
       <b-col class="col-6 d-flex justify-content-center">
-        <img src="../_icons/discort/discord-white.svg" alt="discort">
+        <img src="../_components/_icons/discort/discord-white.svg" alt="discort">
       </b-col>
     </b-row>
   </div>
