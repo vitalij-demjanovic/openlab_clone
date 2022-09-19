@@ -75,8 +75,8 @@
         </b-col>
       </b-row>
     </div>
-    <div>
-      Instagram Feed
+    <div class="pd-wrapper">
+      <a-instagram-feed/>
     </div>
     <div>
       <modern-school/>
@@ -101,10 +101,11 @@ import Drilleo from '@/plugins/app@teacher/_components/a-drilleo'
 import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
 import Support from '@/plugins/app/_components/a-support/a-support'
 import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'Teachers',
-  components: { Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, ZIcon, BRow, BCol }
+  components: { AInstagramFeed, Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, ZIcon, BRow, BCol }
 }
 </script>
 

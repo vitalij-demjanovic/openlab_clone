@@ -2,23 +2,28 @@
   <div class="container pd-wrapper">
     <h1 class="text-center">Pridajte sa k nám</h1>
     <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
-    <div class="d-flex flex-wrap flex-md-nowrap">
-      <card
+    <b-row>
+      <b-col
+        class="col-3"
         v-for="item in openLab"
         :key="item.id"
-        :title="item.title"
-        :description="item.description"
-      />
-    </div>
+      >
+        <card
+          :title="item.title"
+          :description="item.description"
+        />
+      </b-col>
+    </b-row>
   </div>
 </template>
 
 <script>
 import Card from '@/plugins/app/_components/z-card'
+import { BCol, BRow } from 'bootstrap-vue-3'
 
 export default {
   name: 'join-us',
-  components: { Card },
+  components: { BCol, BRow, Card },
   data () {
     return {
       openLab: [

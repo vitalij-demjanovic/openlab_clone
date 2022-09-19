@@ -36,8 +36,8 @@
     <div>
       <a-partner-tabs :show-tab="currentTab"/>
     </div>
-    <div>
-      Instagram Feed
+    <div class="pd-wrapper">
+      <a-instagram-feed/>
     </div>
     <div>
       <modern-school/>
@@ -59,10 +59,11 @@ import Support from '@/plugins/app/_components/a-support/a-support'
 import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import { BCol, BRow } from 'bootstrap-vue-3'
 import APartnerTabs from '@/plugins/app@partners/_components/a-partner-tabs'
+import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'PartnersPage',
-  components: { APartnerTabs, BCol, BRow, Newsletter, Support, ModernSchool, TeamWork, Partners },
+  components: { AInstagramFeed, APartnerTabs, BCol, BRow, Newsletter, Support, ModernSchool, TeamWork, Partners },
   data () {
     return {
       currentTab: 0

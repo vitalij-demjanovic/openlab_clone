@@ -23,7 +23,7 @@
 [ok] prehodit icons do componentov v app
 [ok] a-exceptonal prerobit na komponent v for
 [ok] podporte nas ....dat do komponentu
-[] instagram feed
+[ok] instagram feed
 [] about prerobit do componentov
 [ok] app/componnet _ vymazat 
 

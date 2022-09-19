@@ -1,5 +1,5 @@
 <template>
-<div class="feed-greed" style="gap: 0px; grid-template-columns: repeat(6, auto);">
+<div class="feed-greed pd-wrapper" style="gap: 0px; grid-template-columns: repeat(6, auto);">
   <div class="position-relative">
     <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed1.png" alt="in">
     <div class="feed-cover">

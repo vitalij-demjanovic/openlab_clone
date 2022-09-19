@@ -91,8 +91,8 @@
     <div class="pd-wrapper">
       <discort/>
     </div>
-    <div>
-      Instagram Feed
+    <div class="pd-wrapper">
+      <a-instagram-feed/>
     </div>
     <div>
       <modern-school/>
@@ -125,10 +125,11 @@ import Discort from '@/plugins/app/_components/a-discort'
 import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
 import Support from '@/plugins/app/_components/a-support/a-support'
 import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'games-lab',
-  components: { Newsletter, Support, ModernSchool, Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, PlaceStudy, BCol, BRow },
+  components: { AInstagramFeed, Newsletter, Support, ModernSchool, Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, PlaceStudy, BCol, BRow },
   data () {
     return {
       technologies: [

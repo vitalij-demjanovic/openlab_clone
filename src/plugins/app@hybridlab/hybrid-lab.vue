@@ -99,8 +99,8 @@
     <div>
       <discort/>
     </div>
-    <div>
-      Instagram Feed
+    <div class="pd-wrapper">
+      <a-instagram-feed/>
     </div>
     <div>
       <modern-school/>
@@ -133,10 +133,11 @@ import Options from '@/plugins/app@hybridlab/_components/z-options'
 import Discort from '@/plugins/app/_components/a-discort'
 import PlaceStudy from '@/plugins/app/_components/a-place-study'
 import AHybridSlider from '@/plugins/app@hybridlab/_components/a-hybrid-slider'
+import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'hybrid-lab',
-  components: { AHybridSlider, PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
+  components: { AInstagramFeed, AHybridSlider, PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
   data () {
     return {
       technologies: [
