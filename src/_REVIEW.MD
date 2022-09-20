@@ -24,7 +24,7 @@
 [ok] a-exceptonal prerobit na komponent v for
 [ok] podporte nas ....dat do komponentu
 [ok] instagram feed
-[] about prerobit do componentov
+[ok] about prerobit do componentov
 [ok] app/componnet _ vymazat 
 
 

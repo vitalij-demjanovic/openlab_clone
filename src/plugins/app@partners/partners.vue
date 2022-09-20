@@ -36,34 +36,32 @@
     <div>
       <a-partner-tabs :show-tab="currentTab"/>
     </div>
-    <div class="pd-wrapper">
-      <a-instagram-feed/>
-    </div>
-    <div>
-      <modern-school/>
-    </div>
-    <div>
-      <support/>
-    </div>
-    <div>
-      <newsletter/>
-    </div>
+    <a-instagram-feed/>
+    <!-- Moderná škola -->
+    <a-modern-school/>
+    <!-- Podporujú -->
+    <a-support
+      title="Ďakujeme za"
+      span-title="podporu v roku 2021!"
+    />
+    <!-- Newletter -->
+    <a-newsletter/>
   </div>
 </template>
 
 <script>
 import Partners from '@/plugins/app/_components/a-partners'
 import TeamWork from '@/plugins/app@partners/_components/a-team-work'
-import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/a-support/a-support'
-import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import ASupport from '@/plugins/app/_components/a-support/a-support'
+import ANewsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import { BCol, BRow } from 'bootstrap-vue-3'
 import APartnerTabs from '@/plugins/app@partners/_components/a-partner-tabs'
 import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'PartnersPage',
-  components: { AInstagramFeed, APartnerTabs, BCol, BRow, Newsletter, Support, ModernSchool, TeamWork, Partners },
+  components: { AInstagramFeed, APartnerTabs, BCol, BRow, ANewsletter, ASupport, AModernSchool, TeamWork, Partners },
   data () {
     return {
       currentTab: 0

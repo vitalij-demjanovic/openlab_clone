@@ -99,29 +99,24 @@
     <div>
       <discort/>
     </div>
-    <div class="pd-wrapper">
-      <a-instagram-feed/>
-    </div>
-    <div>
-      <modern-school/>
-    </div>
-    <div>
-      <support
-        title="Ďakujeme za"
-        span-title="podporu"
-      />
-    </div>
-    <div>
-      <newsletter/>
-    </div>
+    <a-instagram-feed/>
+    <!-- Moderná škola -->
+    <a-modern-school/>
+    <!-- Podporujú -->
+    <a-support
+      title="Ďakujeme za"
+      span-title="podporu v roku 2021!"
+    />
+    <!-- Newletter -->
+    <a-newsletter/>
   </div>
 </template>
 
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
-import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/a-support/a-support'
-import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import ASupport from '@/plugins/app/_components/a-support/a-support'
+import ANewsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import TechnologyCard from '@/plugins/app/_components/z-technology-card'
 import Ionic from '../app@hybridlab/_icons/icon-ionic.svg'
 import VueIcon from '../app@hybridlab/_icons/icon-vue.svg'
@@ -137,7 +132,7 @@ import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagr
 
 export default {
   name: 'hybrid-lab',
-  components: { AInstagramFeed, AHybridSlider, PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, Newsletter, Support, ModernSchool, BCol, BRow },
+  components: { AInstagramFeed, AHybridSlider, PlaceStudy, Discort, Options, Students, Exceptional, TechnologyCard, ANewsletter, ASupport, AModernSchool, BCol, BRow },
   data () {
     return {
       technologies: [

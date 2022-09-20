@@ -75,21 +75,16 @@
         </b-col>
       </b-row>
     </div>
-    <div class="pd-wrapper">
-      <a-instagram-feed/>
-    </div>
-    <div>
-      <modern-school/>
-    </div>
-    <div>
-      <support
-        title="Ďakujeme za"
-        span-title="podporu v roku 2021!"
-      />
-    </div>
-    <div>
-      <newsletter/>
-    </div>
+    <a-instagram-feed/>
+    <!-- Moderná škola -->
+    <a-modern-school/>
+    <!-- Podporujú -->
+    <a-support
+      title="Ďakujeme za"
+      span-title="podporu v roku 2021!"
+    />
+    <!-- Newletter -->
+    <a-newsletter/>
   </div>
 </template>
 
@@ -98,14 +93,14 @@ import { BCol, BRow } from 'bootstrap-vue-3'
 import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
 import OpenAcademy from '@/plugins/app@teacher/_components/a-open-academy'
 import Drilleo from '@/plugins/app@teacher/_components/a-drilleo'
-import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/a-support/a-support'
-import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import ASupport from '@/plugins/app/_components/a-support/a-support'
+import ANewsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'Teachers',
-  components: { AInstagramFeed, Newsletter, Support, ModernSchool, Drilleo, OpenAcademy, ZIcon, BRow, BCol }
+  components: { AInstagramFeed, ANewsletter, ASupport, AModernSchool, Drilleo, OpenAcademy, ZIcon, BRow, BCol }
 }
 </script>
 

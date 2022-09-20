@@ -29,14 +29,14 @@
 <!-- Instagram feed -->
   <a-instagram-feed/>
 <!-- Moderná škola -->
-  <modern-school/>
+  <a-modern-school/>
 <!-- Podporujú -->
-  <support
+  <a-support
     title="Ďakujeme za"
     span-title="podporu v roku 2021!"
   />
 <!-- Newletter -->
-  <newsletter/>
+  <a-newsletter/>
 </div>
 </template>
 
@@ -45,9 +45,8 @@ import OptionStudy from '@/plugins/app@about/_components/a-option-study'
 import JoinUs from '@/plugins/app@about/_components/a-join-us'
 import Exceptional from '@/plugins/app/_components/a-exceptional'
 import Team from '@/plugins/app@about/_components/a-team'
-import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/a-support/a-support'
-import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import ASupport from '@/plugins/app/_components/a-support/a-support'
+import ANewsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 import AAboutMain from '@/plugins/app@about/_components/a-about-main'
 import AWhyOpnelab from '@/plugins/app@about/_components/a-why-opnelab'
@@ -57,10 +56,11 @@ import AStudy from '@/plugins/app@about/_components/a-study'
 import AStudentProjects from '@/plugins/app@about/_components/a-student-projects'
 import APeopleHelp from '@/plugins/app@about/_components/a-people-help'
 import AWhoStanding from '@/plugins/app@about/_components/a-who-standing'
+import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
 
 export default {
   name: 'MainPage',
-  components: { AWhoStanding, APeopleHelp, AStudentProjects, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, Newsletter, Support, ModernSchool, Team, Exceptional, JoinUs, OptionStudy }
+  components: { AModernSchool, AWhoStanding, APeopleHelp, AStudentProjects, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
 }
 </script>
 

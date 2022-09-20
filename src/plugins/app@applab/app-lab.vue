@@ -112,21 +112,16 @@
     <div>
       <discort/>
     </div>
-    <div class="pd-wrapper">
-      <a-instagram-feed/>
-    </div>
-    <div>
-      <modern-school/>
-    </div>
-    <div>
-      <support
-        title="Ďakujeme za"
-        span-title="podporu"
-      />
-    </div>
-    <div>
-      <newsletter/>
-    </div>
+    <a-instagram-feed/>
+    <!-- Moderná škola -->
+    <a-modern-school/>
+    <!-- Podporujú -->
+    <a-support
+      title="Ďakujeme za"
+      span-title="podporu v roku 2021!"
+    />
+    <!-- Newletter -->
+    <a-newsletter/>
   </div>
 </template>
 
@@ -144,14 +139,14 @@ import SchoolYear from '@/plugins/app@about/_components/a-school-year'
 import Students from '@/plugins/app/_components/a-students'
 import Options from '@/plugins/app@hybridlab/_components/z-options'
 import Discort from '@/plugins/app/_components/a-discort'
-import ModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import Support from '@/plugins/app/_components/a-support/a-support'
-import Newsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
+import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import ASupport from '@/plugins/app/_components/a-support/a-support'
+import ANewsletter from '@/plugins/app/_components/a-newsletter/a-newsletter'
 import AInstagramFeed from '@/plugins/app/_components/a-instagram-feed/a-instagram-feed'
 
 export default {
   name: 'app-lab',
-  components: { AInstagramFeed, Newsletter, Support, ModernSchool, Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, BRow, BCol },
+  components: { AInstagramFeed, ANewsletter, ASupport, AModernSchool, Discort, Options, Students, SchoolYear, Exceptional, TechnologyCard, BRow, BCol },
   data () {
     return {
       technologies: [

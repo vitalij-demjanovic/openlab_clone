@@ -23,7 +23,7 @@
 import { BRow, BCol } from 'bootstrap-vue-3'
 
 export default {
-  name: 'newsletter',
+  name: 'a-newsletter',
   components: { BRow, BCol }
 }
 </script>

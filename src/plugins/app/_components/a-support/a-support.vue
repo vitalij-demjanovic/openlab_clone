@@ -43,7 +43,7 @@
 
 <script>
 export default {
-  name: 'support',
+  name: 'a-support',
   props: {
     title: String,
     spanTitle: String
