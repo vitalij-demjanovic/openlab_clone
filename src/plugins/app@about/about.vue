@@ -14,7 +14,7 @@
   <a-study/>
 <!-- Pripoj sa k nám -->
   <join-us/>
-<!-- Slider -->
+<!-- Pripojte sa -->
   <a-about-slider/>
 <!-- Študentské projekty -->
   <a-student-projects/>
