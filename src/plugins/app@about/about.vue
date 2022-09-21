@@ -15,7 +15,7 @@
 <!-- Pripoj sa k nám -->
   <join-us/>
 <!-- Slider -->
-  <div>Slider</div>
+  <a-about-slider/>
 <!-- Študentské projekty -->
   <a-student-projects/>
 <!-- Čím sme výnimoční? -->
@@ -57,10 +57,11 @@ import AStudentProjects from '@/plugins/app@about/_components/a-student-projects
 import APeopleHelp from '@/plugins/app@about/_components/a-people-help'
 import AWhoStanding from '@/plugins/app@about/_components/a-who-standing'
 import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
+import AAboutSlider from '@/plugins/app@about/_components/a-about-slider'
 
 export default {
   name: 'MainPage',
-  components: { AModernSchool, AWhoStanding, APeopleHelp, AStudentProjects, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
+  components: { AAboutSlider, AModernSchool, AWhoStanding, APeopleHelp, AStudentProjects, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
 }
 </script>
 
@@ -119,5 +120,10 @@ export default {
     width: 50px
     height: 1px
     background-color: rgba(86, 107, 141, 0.5)
+
+.text-border-w
+  @extend .text-border
+  &:after
+    background: #ffffff
 
 </style>

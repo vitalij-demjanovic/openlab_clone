@@ -148,7 +148,7 @@ export default {
 .slide-dot
   width: 10px
   height: 10px
-  background: #999999
+  background-color: rgba(255, 255, 255, 0.5)
   border-radius: 50%
   margin-right: 10px
   &:last-child
