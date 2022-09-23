@@ -1,13 +1,13 @@
 <template>
   <div class="container">
     <b-row class="align-items-center justify-content-between">
-      <b-col class="col-lg-5 col-xl-4">
+      <b-col class=" col-12 col-lg-5 col-xl-4">
         <h1>
           Kto stojí <br>
           <span class="fw-bold">za Openlabom?</span>
         </h1>
       </b-col>
-      <b-col class="col-lg-7">
+      <b-col class="col-12 col-lg-7">
         <div>
           <partners/>
         </div>

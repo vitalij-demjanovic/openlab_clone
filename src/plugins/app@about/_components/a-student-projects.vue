@@ -13,7 +13,7 @@
                 <h3 class="fw-bold mb-5">Študentský projekt Mapovanie z HybridLabu</h3>
                 <p class="text-gray">Mapovanie je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
               </b-col>
-              <b-col class="col-md-6">
+              <b-col class="col-12 col-md-6">
                 <figure class="position-relative">
                   <img class="rounded-4" src="../_icons/maxresdefault_1.jpg">
                   <img
@@ -34,7 +34,7 @@
                   Hra je dostupná pre Android. Tento študentský projekt prebehol v spolupráci s Ambrelou - platformou rozvojových organizácií v rámci ich medzinárodného projektu Bridge 47.
                 </p>
               </b-col>
-              <b-col class="col-md-6">
+              <b-col class="col-12 col-md-6">
                 <figure class="position-relative">
                   <img class="rounded-4" src="../_icons/student-project-realtopia.png">
                   <img
@@ -55,7 +55,7 @@
                   Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular.
                 </p>
               </b-col>
-              <b-col class="col-md-6">
+              <b-col class="col-12 col-md-6">
                 <figure class="position-relative">
                   <img class="rounded-4" src="../_icons/maxresdefault.jpg">
                   <img

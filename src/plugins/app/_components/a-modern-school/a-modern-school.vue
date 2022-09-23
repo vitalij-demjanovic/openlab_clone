@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <b-row class="align-items-center justify-content-between">
-      <b-col class="col-5">
+      <b-col class=" col-12 col-md-5 order-2 order-md-0">
         <h1 class="mb-3">
           Nie je moderná škola <br>
           <span class="fw-bold">ako moderná škola</span>
@@ -13,7 +13,7 @@
         <color-social/>
         <button class="g-btn btn-lg mt-5">Moderná škola</button>
       </b-col>
-      <b-col class="col-6">
+      <b-col class="col-12 col-md-6 mb-4 mb-lg-0">
         <img src="../a-modern-school/_icons/modern.png" alt="Moderna skola">
       </b-col>
     </b-row>

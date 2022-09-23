@@ -18,19 +18,19 @@
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
-  <div class="position-relative">
+  <div class="position-relative d-none d-md-block">
     <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed4.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
-  <div class="position-relative">
+  <div class="position-relative d-none d-lg-block">
     <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed5.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
-  <div class="position-relative">
+  <div class="position-relative d-none d-lg-block">
     <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed6.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">

@@ -3,7 +3,7 @@
     <h1 class="text-center">Pridajte sa k nám</h1>
     <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
     <div>
-      <b-row class="d-flex flex-nowrap justify-content-xl-center overflow-scroll z-index-1">
+      <b-row class="scroll-bar d-flex flex-nowrap justify-content-xl-center overflow-scroll z-index-1">
         <b-col
           class="col-12 col-sm-6 col-md-3"
           v-for="item in openLab"
