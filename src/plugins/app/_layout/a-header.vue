@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3 mb-3">
-    <div class="d-flex align-items-center justify-content-center border-bott pb-3 mb-3">
+    <div class="d-flex align-items-center justify-content-center border-bott pb-3 mb-3 d-none d-lg-flex">
       <p class="text-gray mb-0">Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
       <div class="discord-community d-flex align-items-center">
         OPENLAB COMMUNITY
@@ -15,8 +15,8 @@
           </a>
         </div>
       </b-col>
-      <b-col class="col-8">
-        <nav>
+      <b-col class="col-lg-7 col-md-5">
+        <nav class="d-none d-lg-block">
           <ul class="nav-links d-flex">
             <li class="link">
               <router-link to="/">Úvod</router-link>
@@ -48,8 +48,11 @@
           </ul>
         </nav>
       </b-col>
-      <b-col class="col-2">
-        <button class="g-btn">Pridajte sa k nám</button>
+      <b-col class="col-lg-3 d-flex justify-content-end">
+        <button class="g-btn d-none d-lg-block">Pridajte sa k nám</button>
+        <button class="mobile-btn d-block d-lg-none">
+          <z-icon icon-name="list"/>
+        </button>
       </b-col>
     </b-row>
   </div>

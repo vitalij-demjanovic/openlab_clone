@@ -2,7 +2,7 @@
   <div class="container pd-wrapper">
     <h1 class="mb-5 text-center"><span class="span-weight">Nachádzame sa</span> na dvoch školách</h1>
     <b-row class="justify-content-between">
-      <b-col class="col-5">
+      <b-col class="col-12 col-md-5 mb-5 mb-md-0">
         <img class="mb-4" src="../_icons/school1.png" alt="school">
         <div>
           <img src="../_icons/place.svg" alt="place">
@@ -13,7 +13,7 @@
           <a class="fw-bold" href="https://spsehalova.sk/">www.spsehalova.sk</a>
         </div>
       </b-col>
-      <b-col class="col-5">
+      <b-col class="col-12 col-md-5">
         <img class="mb-4" src="../_icons/school2.png" alt="school">
         <div>
           <img src="../_icons/place.svg" alt="place">

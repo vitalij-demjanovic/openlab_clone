@@ -22,7 +22,7 @@
           <img src="../_layout/_icons/instagram.svg" alt="instagram">
         </b-col>
       </b-row>
-      <div class="footer-cube"/>
+      <div class="footer-cube d-none"/>
     </footer>
   </div>
 </template>

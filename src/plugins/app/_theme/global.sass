@@ -18,6 +18,7 @@ ul, li
 
 .container
   max-width: 1400px !important
+  margin: 0 auto !important
 
 .g-btn
   background: #3597ff
@@ -93,12 +94,26 @@ img
     color: #0a58ca
 
 .image-vid
-  position: absolute
-  margin-left: 100px
-  left: 50%
-  bottom: 0
-  height: auto !important
   width: auto !important
-  max-width: 50%
-  max-height: 95%
-  z-index: 99
+  height: auto !important
+  max-width: 100%
+  max-height: calc( 100% - 57px )
+
+@media (min-width: 1200px)
+  .image-vid
+    position: absolute
+    margin-left: 100px
+    left: 50%
+    bottom: 0
+    height: auto !important
+    width: auto !important
+    max-width: 50%
+    max-height: 95%
+    z-index: 99
+
+@media (max-width: 768px)
+  .image-vid
+    position: absolute
+    bottom: 0
+    z-index: 0
+    opacity: 0.2

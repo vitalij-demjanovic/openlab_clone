@@ -19,5 +19,4 @@ export default {
 .img-fluid
   max-width: 100%
   height: auto
-  object-fit: none
 </style>

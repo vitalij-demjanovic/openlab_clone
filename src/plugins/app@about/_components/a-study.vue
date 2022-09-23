@@ -1,8 +1,8 @@
 <template>
   <div class="bg-primary-lighter">
-    <div class="container">
-      <b-row class="align-items-center">
-        <b-col class="col-5">
+    <div class="container pt-5 pb-5 pt-lg-0 pb-lg-0">
+      <b-row class="align-items-end align-items-lg-center position-relative">
+        <b-col class="col-12 col-lg-6">
           <h1 class="mb-5">
             <span class="fw-bold">Chceš ísť študovať odbor</span>
             kompletne zameraný na IT?
@@ -13,8 +13,8 @@
           <p class="mb-5 text-gray">Staň sa súčasťou tohto inovatívneho študijného programu aj ty!</p>
           <button class="g-btn btn-lg">Chcem vedieť viac</button>
         </b-col>
-        <b-col class="col-7">
-          <img src="../_icons/introduction-img.png" alt="introduction">
+        <b-col class="col-7 col-md-6 d-none d-lg-block">
+          <img class="img-fluid" src="../_icons/introduction-img.png" alt="introduction">
         </b-col>
       </b-row>
     </div>

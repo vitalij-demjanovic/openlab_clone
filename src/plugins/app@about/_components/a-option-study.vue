@@ -1,13 +1,13 @@
 <template>
   <div class="pd-wrapper container">
     <b-row class="align-items-center">
-      <b-col class="col-lg-5 col-xl-4 mb-3 mb-md-5 mb-lg-0">
+      <b-col class="col-12 col-lg-5 col-xl-4 mb-3 mb-md-5 mb-lg-0">
         <h1>
           V akých laboch <br>
           <span class="span-weight">možeš študovať?</span>
         </h1>
       </b-col>
-      <b-col class="col-lg-7 col-xl-8 d-flex">
+      <b-col class="col-12 col-lg-7 col-xl-8 d-flex">
         <card
           v-for="option in options"
           :key="option.id"

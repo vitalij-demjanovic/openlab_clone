@@ -10,17 +10,17 @@
       </b-col>
     </b-row>
     <b-row class="pt-5 justify-content-center">
-      <b-col class="col-3">
+      <b-col class="col-12 col-md-3 text-center text-md-start mb-0 mb-4">
         <img class="mb-2" src="../_icons/select.svg" alt="selct">
         <h5 class="fw-bold mb-2">Celospoločenský rozvoj</h5>
         <p class="text-gray">Osnovy aj učebné materiály pre všetky tech oblasti sú open source</p>
       </b-col>
-      <b-col class="col-3">
+      <b-col class="col-12 col-md-3 text-center text-md-start mb-0 mb-4">
         <img class="mb-2" src="../_icons/support.svg" alt="select">
         <h5 class="fw-bold mb-2">Učenie praxou</h5>
         <p class="text-gray">Študentov vedieme k tímovému riešeniu problémov.</p>
       </b-col>
-      <b-col class="col-3">
+      <b-col class="col-12 col-md-3 text-center text-md-start">
         <img class="mb-2" src="../_icons/intership.svg" alt="select">
         <h5 class="fw-bold mb-2">Rozvoj talentu</h5>
         <p class="text-gray">Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
