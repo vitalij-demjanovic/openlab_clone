@@ -2,10 +2,9 @@
   <div class="container pd-wrapper">
     <h1 class="text-center">Pridajte sa k nám</h1>
     <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
-    <div>
-      <b-row class="scroll-bar d-flex flex-nowrap justify-content-xl-center overflow-scroll z-index-1">
-        <b-col
-          class="col-12 col-sm-6 col-md-3"
+    <div class="justify-content-center d-flex">
+      <div class="slider-scroll p-3">
+        <div
           v-for="item in openLab"
           :key="item.id"
         >
@@ -13,19 +12,19 @@
             :title="item.title"
             :description="item.description"
           />
-        </b-col>
-      </b-row>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Card from '@/plugins/app/_components/z-card'
-import { BCol, BRow } from 'bootstrap-vue-3'
+// import { BCol, BRow } from 'bootstrap-vue-3'
 
 export default {
   name: 'join-us',
-  components: { BCol, BRow, Card },
+  components: { Card },
   data () {
     return {
       openLab: [
@@ -55,6 +54,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="sass">
+.slider-scroll
+  height: 400px
+  display: flex
+  overflow-x: auto
+  align-items: center
+  gap: 10px
 
+.slider-scroll
+  &::-webkit-scrollbar
+    display: none
 </style>

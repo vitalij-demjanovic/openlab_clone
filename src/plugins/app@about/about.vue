@@ -15,9 +15,9 @@
 <!-- Pripoj sa k nám -->
   <join-us/>
 <!-- Pripojte sa -->
-  <a-about-slider/>
+<!--  <a-about-slider/>-->
 <!-- Študentské projekty -->
-  <a-student-projects/>
+<!--  <a-student-projects/>-->
 <!-- Čím sme výnimoční? -->
   <exceptional/>
 <!-- Náš tím -->
@@ -53,15 +53,15 @@ import AWhyOpnelab from '@/plugins/app@about/_components/a-why-opnelab'
 import AVision from '@/plugins/app@about/_components/a-vision'
 import ASchools from '@/plugins/app@about/_components/a-schools'
 import AStudy from '@/plugins/app@about/_components/a-study'
-import AStudentProjects from '@/plugins/app@about/_components/a-student-projects'
+// import AStudentProjects from '@/plugins/app@about/_components/a-student-projects'
 import APeopleHelp from '@/plugins/app@about/_components/a-people-help'
 import AWhoStanding from '@/plugins/app@about/_components/a-who-standing'
 import AModernSchool from '@/plugins/app/_components/a-modern-school/a-modern-school'
-import AAboutSlider from '@/plugins/app@about/_components/a-about-slider'
+// import AAboutSlider from '@/plugins/app@about/_components/a-about-slider'
 
 export default {
   name: 'MainPage',
-  components: { AAboutSlider, AModernSchool, AWhoStanding, APeopleHelp, AStudentProjects, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
+  components: { AModernSchool, AWhoStanding, APeopleHelp, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
 }
 </script>
 
