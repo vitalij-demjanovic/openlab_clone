@@ -104,7 +104,30 @@ img
   max-width: 100%
   max-height: calc( 100% - 57px )
 
-@media (min-width: 1200px)
+.shape
+  width: 241px
+  right: 0
+  bottom: -240px
+  z-index: 0
+  img
+    width: 482px
+    max-width: none
+
+.shape-left
+  width: 435px
+  height: 435px
+  left: -221px
+  top: -190px
+  z-index: -1
+
+@media (max-width: 1199.98px)
+  .shape
+    width: 120px
+    bottom: -120px
+    img
+      width: 241px
+
+@media (min-width: 1199.98px)
   .image-vid
     position: absolute
     margin-left: 100px

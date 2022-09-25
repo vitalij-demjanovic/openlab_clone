@@ -58,7 +58,7 @@
         </button>
       </b-col>
     </b-row>
-    <div :class="['mobile-menu', { show }]">
+    <div v-if="show" :class="['mobile-menu', { show }]">
       <button
         class="d-flex justify-content-end m-2"
         @click="toggleShow"
