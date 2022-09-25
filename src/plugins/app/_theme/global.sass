@@ -116,6 +116,21 @@ img
     max-height: 95%
     z-index: 99
 
+  .about-slider-item
+    width: 1140px
+
+@media (max-width: 992px)
+  .about-slider-item
+    width: 960px
+
+  .slider-item-content
+    max-width: 340px
+
+  .slider-item-content
+    max-width: none
+    width: 348px
+
+
 @media (max-width: 768px)
   .image-vid
     position: absolute
@@ -126,6 +141,17 @@ img
   .support
     grid-template-columns: repeat(2, 1fr)
 
+  .about-slider-item
+    width: 720px
+    display: flex
+    justify-items: flex-start
+
+  .about-slider
+    left: 0
+
+  .slider-item-content
+    max-width: none
+    width: 100%
 
 @media (max-width: 576px)
   .footer-social
@@ -133,3 +159,11 @@ img
 
   .card-body
     max-width: max-content !important
+
+  .about-slider-item
+    max-width: none
+    width: 540px
+
+@media (max-width: 460px)
+  .about-slider-item
+    width: 430px

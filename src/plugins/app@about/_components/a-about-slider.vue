@@ -20,7 +20,7 @@
         <img
           src="../_icons/join-labmastri.png"
           alt="labmastri"
-          class="slider-item-image mb-0 d-md-block d-none overflow-hidden rounded-3"
+          class="slider-item-image mb-0 d-md-block d-none rounded-3"
         >
       </figure>
     </div>
@@ -46,7 +46,7 @@
         <img
           src="../_icons/firm.png"
           alt="firm"
-          class="slider-item-image mb-0 d-md-block d-none overflow-hidden rounded-3"
+          class="slider-item-image mb-0 d-md-block d-none rounded-3"
         >
       </figure>
     </div>
@@ -70,7 +70,7 @@
         <img
           src="../_icons/join-schools.png"
           alt="school"
-          class="slider-item-image mb-0 d-md-block d-none overflow-hidden rounded-3"
+          class="slider-item-image mb-0 d-md-block d-none rounded-3"
         >
       </figure>
     </div>
@@ -93,7 +93,7 @@
         <img
           src="../_icons/join-students.png"
           alt="students"
-          class="slider-item-image mb-0 d-md-block d-none overflow-hidden rounded-3"
+          class="slider-item-image mb-0 d-md-block d-none rounded-3"
         >
       </figure>
     </div>
@@ -147,14 +147,14 @@ export default {
 .about-slider-container
   padding-top: 100px
   width: 100%
-  height: 600px
+  height: 700px
   position: relative
   overflow: hidden
 
 .about-slider
   display: flex
   position: absolute
-  left: 10%
+  left: 15%
   align-items: center
   transition: all 0.5s ease
 
