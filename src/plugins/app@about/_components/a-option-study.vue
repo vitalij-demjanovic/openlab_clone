@@ -1,13 +1,13 @@
 <template>
   <div class="pd-wrapper container">
     <b-row>
-      <b-col class="col-12 col-lg-5 mb-3 mb-md-5 mb-lg-0">
+      <b-col class="col-12 col-xl-5 mb-3 mb-md-5 mb-lg-0">
         <h1>
           V akých laboch <br>
           <span class="span-weight">možeš študovať?</span>
         </h1>
       </b-col>
-      <b-col class="col-12 col-lg-7 d-flex flex-column flex-wrap flex-md-nowrap flex-md-row gap-3">
+      <b-col class="col-12 col-xl-7 d-flex flex-column flex-wrap flex-md-nowrap flex-md-row gap-3">
         <card
           v-for="option in options"
           :key="option.id"

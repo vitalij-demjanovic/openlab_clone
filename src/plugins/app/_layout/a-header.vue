@@ -8,7 +8,7 @@
       </div>
     </div>
     <b-row class="align-items-center">
-      <b-col class="col-2">
+      <b-col class="col-5 col-lg-2">
         <div class="logo">
           <a href="/">
             <img src="../_components/_icons/openlab-logo.svg" alt="logo">
