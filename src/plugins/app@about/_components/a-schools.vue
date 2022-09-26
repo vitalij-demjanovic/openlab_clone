@@ -9,7 +9,7 @@
             <img src="../_icons/place.svg" alt="place">
             <span class="text-gray">Hálova 16, Bratislava</span>
           </div>
-          <div class="d-flex justify-content-between align-items-end mt-3">
+          <div class="d-flex flex-md-row flex-column align-items-start justify-content-between align-items-md-end mt-3">
             <span class="school-address">Stredná Priemyselná Škola Elektrotechnická</span>
             <a class="fw-bold" href="https://spsehalova.sk/">www.spsehalova.sk</a>
           </div>
@@ -20,7 +20,7 @@
             <img src="../_icons/place.svg" alt="place">
             <span class="text-gray">Nábrežná 1325, Kysucké Nové Mesto</span>
           </div>
-          <div class="d-flex justify-content-between align-items-end mt-3">
+          <div class="d-flex flex-md-row flex-column align-items-start justify-content-between align-items-md-end mt-3">
             <span class="school-address">Stredná Priemyselná Škola Informačných Technológií</span>
             <a class="fw-bold" href="https://spsknm.sk">www.spsknm.sk</a>
           </div>
