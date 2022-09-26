@@ -138,19 +138,17 @@ img
     max-height: 95%
     z-index: 99
 
-  .about-slider-item
-    width: 1140px
-
 @media (max-width: 992px)
-  .about-slider-item
-    width: 960px
-
   .slider-item-content
     max-width: 340px
+
+  .swiper-slide
+    padding-top: 200px !important
 
   .slider-item-content
     max-width: none
     width: 348px
+    bottom: 5%
 
 
 @media (max-width: 768px)
@@ -163,20 +161,20 @@ img
   .support
     grid-template-columns: repeat(2, 1fr)
 
-  .about-slider-item
-    width: 720px
-    display: flex
-    justify-items: flex-start
-
   .about-slider
     left: 0
 
   .slider-item-content
     max-width: none
     width: 100%
+    left: 0
+    position: static
 
   .card-exceptional
     margin: 0
+
+  .pd-wrapper
+    padding: 130px 0 0
 
 @media (max-width: 576px)
   .footer-social
@@ -185,9 +183,6 @@ img
   .card-body
     max-width: max-content !important
 
-  .about-slider-item
-    max-width: none
-    width: 540px
 
 @media (max-width: 460px)
   .about-slider-item
