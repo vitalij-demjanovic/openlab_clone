@@ -122,24 +122,6 @@
 <script>
 export default {
   name: 'a-about-slider',
-  data () {
-    return {
-      ndx: 0,
-      slideNdx: 0,
-      sliderPosition: 0
-    }
-  },
-  methods: {
-    moveSlider (nxt) {
-      const { slide, mov } = this.$refs
-      const widSlide = parseInt(getComputedStyle(mov).getPropertyValue('width'), 10)
-      this.ndx = nxt
-      this.slideNdx = nxt
-      this.sliderPosition = -(widSlide * nxt)
-      slide.style.transform = `translateX(${this.sliderPosition}px)`
-      console.log(this.sliderPosition)
-    }
-  }
 }
 </script>
 

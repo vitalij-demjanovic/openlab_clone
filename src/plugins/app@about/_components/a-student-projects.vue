@@ -5,10 +5,16 @@
     <div>
       <h5 class="text-border fs-6 mb-5">Projekty študentov v <span class="fw-bold">OpenLabe</span></h5>
       <div/>
-      <div class="slider-m">
-        <div class="slide-c" ref="slide">
-          <div class="slide-item" ref="mov">
-            <b-row class="justify-content-between">
+      <div>
+        <swiper
+          :spaceBetween="30"
+          :autoplay='{
+            "delay": 2500,
+            "disableOnInteraction": false
+          }'
+        >
+          <swiper-slide>
+            <b-row class="justify-content-between align-items-center">
               <b-col class="col-md-6 col-xl-4">
                 <h3 class="fw-bold mb-5">Študentský projekt Mapovanie z HybridLabu</h3>
                 <p class="text-gray">Mapovanie je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
@@ -23,9 +29,9 @@
                 </figure>
               </b-col>
             </b-row>
-          </div>
-          <div class="slide-item" ref="mov">
-            <b-row class="justify-content-between">
+          </swiper-slide>
+          <swiper-slide>
+            <b-row class="justify-content-between align-items-center">
               <b-col class="col-md-6 col-xl-4">
                 <h3 class="fw-bold mb-5">Študentský projekt RealTopia z GamesLabu</h3>
                 <p class="text-gray">RealTopia je fantasy hra s 2D grafikou, ktorá nesie environmentálne posolstvo.
@@ -44,9 +50,9 @@
                 </figure>
               </b-col>
             </b-row>
-          </div>
-          <div class="slide-item" ref="mov">
-            <b-row class="justify-content-between">
+          </swiper-slide>
+          <swiper-slide>
+            <b-row class="justify-content-between align-items-center">
               <b-col class="col-md-6 col-xl-4">
                 <h3 class="fw-bold mb-5">Študentský projekt Renmo z AppsLabu</h3>
                 <p class="text-gray">
@@ -65,21 +71,8 @@
                 </figure>
               </b-col>
             </b-row>
-          </div>
-        </div>
-      </div>
-      <div class="slide-dots d-flex justify-content-center mb-5">
-        <div :class="['slide-dot', {active: ndx === 0}]"/>
-        <div :class="['slide-dot', {active: ndx === 1}]"/>
-        <div :class="['slide-dot', {active: ndx === 2}]"/>
-      </div>
-      <div class="mb-4">
-        <button>
-          <z-icon iconName="slide-left" @click="prevSlide(ndx -= 1)"/>
-        </button>
-        <button class="space-ma">
-          <z-icon iconName="slide-right" @click="nextSlide(ndx += 1)"/>
-        </button>
+          </swiper-slide>
+        </swiper>
       </div>
       <a href="https://www.youtube.com/channel/UCinIL-0-qCLU6zE5fo1SPNw" class="text-primary">Pozrieť si všetky projekty <z-icon iconName="arrow-right"/></a>
     </div>
@@ -89,42 +82,16 @@
 <script>
 import { BCol, BRow } from 'bootstrap-vue-3'
 import ZIcon from '@/plugins/app/_components/z-icon/z-icon'
+import { Swiper } from 'swiper/vue/swiper.js'
+import { SwiperSlide } from 'swiper/vue/swiper-slide.js'
+import SwiperModule, { Autoplay } from 'swiper'
+import 'swiper/swiper-bundle.min.css'
+
+SwiperModule.use([Autoplay])
 
 export default {
   name: 'a-student-projects',
-  components: { ZIcon, BCol, BRow },
-  data () {
-    return {
-      ndx: 0,
-      slideNdx: 0,
-      sliderPosition: 0
-    }
-  },
-  methods: {
-    moveSlider (nxt) {
-      const { slide, mov } = this.$refs
-      const widSlide = parseInt(getComputedStyle(mov).getPropertyValue('width'), 10)
-      this.slideNdx = nxt
-      this.sliderPosition = -((widSlide + 50) * nxt)
-      slide.style.transform = `translateX(${this.sliderPosition}px)`
-      console.log(this.sliderPosition)
-    },
-    nextSlide (ndx) {
-      if (ndx < 3) {
-        this.moveSlider(ndx)
-      } else if (ndx > 2) {
-        this.ndx = 0
-        this.moveSlider(0)
-      }
-    },
-    prevSlide (ndx) {
-      if (ndx >= 0) {
-        this.moveSlider(ndx)
-      } else {
-        this.ndx = 0
-      }
-    }
-  }
+  components: { ZIcon, BCol, BRow, Swiper, SwiperSlide }
 }
 </script>
 
