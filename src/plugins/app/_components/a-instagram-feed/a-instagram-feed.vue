@@ -1,37 +1,37 @@
 <template>
 <div class="feed-greed pd-wrapper" style="gap: 0px; grid-template-columns: repeat(6, auto);">
-  <div class="position-relative">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed1.png" alt="in">
+  <div class="position-relative ">
+    <img src="../_icons/instagram-feed/feed1.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
   <div class="position-relative">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed2.png" alt="in">
+    <img src="../_icons/instagram-feed/feed2.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
   <div class="position-relative">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed3.png" alt="in">
+    <img src="../_icons/instagram-feed/feed3.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
   <div class="position-relative d-none d-md-block">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed4.png" alt="in">
+    <img src="../_icons/instagram-feed/feed4.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
   <div class="position-relative d-none d-lg-block">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed5.png" alt="in">
+    <img  src="../_icons/instagram-feed/feed5.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>
   </div>
   <div class="position-relative d-none d-lg-block">
-    <img class="w-100" style="height: 290px" src="../_icons/instagram-feed/feed6.png" alt="in">
+    <img src="../_icons/instagram-feed/feed6.png" alt="in">
     <div class="feed-cover">
       <img class="feed-in" src="../_icons/instagram-feed/instagram.png" alt="in">
     </div>

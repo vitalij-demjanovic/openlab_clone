@@ -7,7 +7,7 @@
           <span class="span-weight">možeš študovať?</span>
         </h1>
       </b-col>
-      <b-col class="col-12 col-xl-8 d-flex flex-column flex-wrap flex-lg-nowrap flex-lg-row gap-3">
+      <b-col class="col-12 col-lg-8 d-flex flex-column flex-wrap flex-lg-nowrap flex-lg-row gap-3">
         <card
           v-for="option in options"
           :key="option.id"

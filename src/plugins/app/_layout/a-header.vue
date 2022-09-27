@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-3 mb-3">
+  <div class="container container-md mt-3 mb-3">
     <div class="d-flex align-items-center justify-content-center border-bott pb-3 mb-3 d-none d-lg-flex">
       <p class="text-gray mb-0">Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
       <div class="discord-community d-flex align-items-center">
@@ -15,8 +15,8 @@
           </a>
         </div>
       </b-col>
-      <b-col class="col-lg-7 col-md-5">
-        <nav class="d-none d-lg-block">
+      <b-col class="col-lg-7 col-md-5 d-none d-lg-block">
+        <nav>
           <ul class="nav-links d-flex">
             <li class="link">
               <router-link to="/">Úvod</router-link>

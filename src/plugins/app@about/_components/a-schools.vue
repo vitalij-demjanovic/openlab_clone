@@ -1,5 +1,5 @@
 <template>
-  <div class="position-relative">
+  <div class="position-relative z-index-1">
     <div class="container pd-wrapper">
       <h1 class="mb-5 text-center"><span class="span-weight">Nachádzame sa</span> na dvoch školách</h1>
       <b-row class="justify-content-between">
@@ -14,7 +14,7 @@
             <a class="fw-bold" href="https://spsehalova.sk/">www.spsehalova.sk</a>
           </div>
         </b-col>
-        <b-col class="col-12 col-md-5">
+        <b-col class="col-12 col-md-5 z-index-1">
           <img class="mb-4" src="../_icons/school2.png" alt="school">
           <div>
             <img src="../_icons/place.svg" alt="place">
@@ -27,7 +27,7 @@
         </b-col>
       </b-row>
     </div>
-    <div class="d-none d-md-block overflow-hidden position-absolute shape">
+    <div class="shape position-absolute overflow-hidden d-none d-md-block">
       <img src="../_icons/p_letter.png">
     </div>
   </div>

@@ -61,7 +61,7 @@ import AAboutSlider from '@/plugins/app@about/_components/a-about-slider'
 
 export default {
   name: 'MainPage',
-  components: { AAboutSlider, AStudentProjects, AModernSchool, AWhoStanding, APeopleHelp, AStudy, ASchools, AVision, AWhyOpnelab, AAboutMain, AInstagramFeed, ANewsletter, ASupport, Team, Exceptional, JoinUs, OptionStudy }
+  components: { AAboutMain, AWhyOpnelab, AVision, OptionStudy, ASchools, AStudy, JoinUs, AAboutSlider, AStudentProjects, Exceptional, Team, APeopleHelp, AWhoStanding, AInstagramFeed, AModernSchool, ASupport, ANewsletter }
 }
 </script>
 

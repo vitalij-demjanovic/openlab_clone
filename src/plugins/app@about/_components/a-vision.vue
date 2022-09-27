@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <b-row class="align-items-center">
-      <b-col class="mb-5 col-12 col-md-6 col-12">
+      <b-col class="mb-5 col-12 col-lg-6 col-12">
         <h1 class="mb-5">
           Naša vízia
           <span class="span-weight">v OpenLabe</span>

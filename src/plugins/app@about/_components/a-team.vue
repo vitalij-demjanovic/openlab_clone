@@ -6,7 +6,7 @@
         v-for="person in team"
         :key="person.id"
         class="col-6 col-md-3">
-        <img class="mb-3" :src="person.photo" alt="person">
+        <img class="mb-3 rounded-4" :src="person.photo" alt="person">
         <span class="text-gray">{{person.role}}</span>
         <h5 class="mt-4 fw-bold">{{person.name}}</h5>
         <p class="text-gray">{{person.position}}</p>
