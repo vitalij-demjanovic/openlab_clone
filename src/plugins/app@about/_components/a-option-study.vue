@@ -1,21 +1,23 @@
 <template>
-  <div class="pd-wrapper container">
-    <b-row class="align-items-center">
-      <b-col class="col-12 col-xl-3 mb-3 mb-md-5 mb-lg-0">
-        <h1>
-          V akých laboch <br>
-          <span class="span-weight">možeš študovať?</span>
-        </h1>
-      </b-col>
-      <b-col class="col-12 col-lg-8 d-flex flex-column flex-wrap flex-lg-nowrap flex-lg-row gap-3">
-        <card
-          v-for="option in options"
-          :key="option.id"
-          :title="option.title"
-          :description="option.description"
-        />
-      </b-col>
-    </b-row>
+  <div class="container">
+    <div class="pd-wrapper">
+      <b-row class="align-items-center">
+        <b-col class="col-12 col-xl-3 mb-3 mb-md-5 mb-lg-0">
+          <h1>
+            V akých laboch <br>
+            <span class="span-weight">možeš študovať?</span>
+          </h1>
+        </b-col>
+        <b-col class="col-12 col-lg-8 d-flex flex-column flex-wrap flex-lg-nowrap flex-lg-row gap-3">
+          <card
+            v-for="option in options"
+            :key="option.id"
+            :title="option.title"
+            :description="option.description"
+          />
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 

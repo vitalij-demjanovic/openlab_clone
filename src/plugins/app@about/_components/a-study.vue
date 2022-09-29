@@ -14,7 +14,7 @@
           <button class="g-btn btn-lg">Chcem vedieť viac</button>
         </b-col>
         <b-col class="col-lg-6 col-xl-7 d-none d-lg-flex align-items-end">
-          <img class="img-fluid" src="../_icons/introduction-img.png" alt="introduction">
+          <img class="study-img" src="../_icons/introduction-img.png" alt="introduction">
         </b-col>
       </b-row>
     </div>
@@ -31,13 +31,6 @@ export default {
 
 <style lang="sass">
 .study-img
-  position: absolute
-  margin-left: 100px
-  left: 50%
-  bottom: 0
-  height: auto !important
-  width: auto !important
-  max
-  z-index: 99
-
+  max-width: 100%
+  height: auto
 </style>

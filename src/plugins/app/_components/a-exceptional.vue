@@ -3,17 +3,19 @@
     <div class="d-none d-md-block overflow-hidden position-absolute shape-left">
       <img src="../_components/_icons/a_letter.png">
     </div>
-    <div class="container pd-wrapper-border">
-      <h2 class="text-center">Čím sme <span class="fw-bold">výnimoční?</span></h2>
-      <div class="d-flex flex-wrap card-exceptional">
-        <div
-          class="card-exceptional-item col-12 col-md-6 col-lg-4"
-          v-for="special in specials"
-          :key="special.id"
-        >
-          <img class="mb-3"  :src="special.image" alt="special">
-          <h5 class="fw-bold mb-3">{{special.title}}</h5>
-          <p class="text-gray">{{special.description}}</p>
+    <div class="container">
+      <div class="pd-wrapper-border">
+        <h2 class="text-center">Čím sme <span class="fw-bold">výnimoční?</span></h2>
+        <div class="d-flex flex-wrap card-exceptional">
+          <div
+            class="card-exceptional-item col-12 col-md-6 col-lg-4"
+            v-for="special in specials"
+            :key="special.id"
+          >
+            <img class="mb-3"  :src="special.image" alt="special">
+            <h5 class="fw-bold mb-3">{{special.title}}</h5>
+            <p class="text-gray">{{special.description}}</p>
+          </div>
         </div>
       </div>
     </div>

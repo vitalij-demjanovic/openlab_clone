@@ -1,17 +1,19 @@
 <template>
-  <div class="container pd-wrapper">
-    <h1 class="text-center">Pridajte sa k nám</h1>
-    <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
-    <div class="justify-content-center d-flex">
-      <div class="slider-scroll p-3">
-        <div
-          v-for="item in openLab"
-          :key="item.id"
-        >
-          <card
-            :title="item.title"
-            :description="item.description"
-          />
+  <div class="container">
+    <div class="pd-wrapper">
+      <h1 class="text-center">Pridajte sa k nám</h1>
+      <h1 class="fw-bold text-center mb-4">My všetci sme OpenLab…</h1>
+      <div class="justify-content-center d-flex">
+        <div class="slider-scroll p-3">
+          <div
+            v-for="item in openLab"
+            :key="item.id"
+          >
+            <card
+              :title="item.title"
+              :description="item.description"
+            />
+          </div>
         </div>
       </div>
     </div>
